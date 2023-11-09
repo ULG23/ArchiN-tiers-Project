@@ -1,0 +1,15 @@
+/Users/gauthiermiguet/Library/CloudStorage/GoogleDrive-gauthier.miguet22@gmail.com/My Drive/3A/Archi N-tier/Project/src/JeBalance.Domain/bin/Debug/net7.0/JeBalance.Domain.deps.json
+/Users/gauthiermiguet/Library/CloudStorage/GoogleDrive-gauthier.miguet22@gmail.com/My Drive/3A/Archi N-tier/Project/src/JeBalance.Domain/bin/Debug/net7.0/JeBalance.Domain.dll
+/Users/gauthiermiguet/Library/CloudStorage/GoogleDrive-gauthier.miguet22@gmail.com/My Drive/3A/Archi N-tier/Project/src/JeBalance.Domain/bin/Debug/net7.0/JeBalance.Domain.pdb
+/Users/gauthiermiguet/Library/CloudStorage/GoogleDrive-gauthier.miguet22@gmail.com/My Drive/3A/Archi N-tier/Project/src/JeBalance.Domain/bin/Debug/net7.0/JeBalance.Domain.Shared.dll
+/Users/gauthiermiguet/Library/CloudStorage/GoogleDrive-gauthier.miguet22@gmail.com/My Drive/3A/Archi N-tier/Project/src/JeBalance.Domain/bin/Debug/net7.0/JeBalance.Domain.Shared.pdb
+/Users/gauthiermiguet/Library/CloudStorage/GoogleDrive-gauthier.miguet22@gmail.com/My Drive/3A/Archi N-tier/Project/src/JeBalance.Domain/obj/Debug/net7.0/JeBalance.Domain.csproj.AssemblyReference.cache
+/Users/gauthiermiguet/Library/CloudStorage/GoogleDrive-gauthier.miguet22@gmail.com/My Drive/3A/Archi N-tier/Project/src/JeBalance.Domain/obj/Debug/net7.0/JeBalance.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gauthiermiguet/Library/CloudStorage/GoogleDrive-gauthier.miguet22@gmail.com/My Drive/3A/Archi N-tier/Project/src/JeBalance.Domain/obj/Debug/net7.0/JeBalance.Domain.AssemblyInfoInputs.cache
+/Users/gauthiermiguet/Library/CloudStorage/GoogleDrive-gauthier.miguet22@gmail.com/My Drive/3A/Archi N-tier/Project/src/JeBalance.Domain/obj/Debug/net7.0/JeBalance.Domain.AssemblyInfo.cs
+/Users/gauthiermiguet/Library/CloudStorage/GoogleDrive-gauthier.miguet22@gmail.com/My Drive/3A/Archi N-tier/Project/src/JeBalance.Domain/obj/Debug/net7.0/JeBalance.Domain.csproj.CoreCompileInputs.cache
+/Users/gauthiermiguet/Library/CloudStorage/GoogleDrive-gauthier.miguet22@gmail.com/My Drive/3A/Archi N-tier/Project/src/JeBalance.Domain/obj/Debug/net7.0/JeBalance.Domain.csproj.CopyComplete
+/Users/gauthiermiguet/Library/CloudStorage/GoogleDrive-gauthier.miguet22@gmail.com/My Drive/3A/Archi N-tier/Project/src/JeBalance.Domain/obj/Debug/net7.0/JeBalance.Domain.dll
+/Users/gauthiermiguet/Library/CloudStorage/GoogleDrive-gauthier.miguet22@gmail.com/My Drive/3A/Archi N-tier/Project/src/JeBalance.Domain/obj/Debug/net7.0/refint/JeBalance.Domain.dll
+/Users/gauthiermiguet/Library/CloudStorage/GoogleDrive-gauthier.miguet22@gmail.com/My Drive/3A/Archi N-tier/Project/src/JeBalance.Domain/obj/Debug/net7.0/JeBalance.Domain.pdb
+/Users/gauthiermiguet/Library/CloudStorage/GoogleDrive-gauthier.miguet22@gmail.com/My Drive/3A/Archi N-tier/Project/src/JeBalance.Domain/obj/Debug/net7.0/ref/JeBalance.Domain.dll
