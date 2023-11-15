@@ -17,7 +17,7 @@ public class JeBalanceDbContextFactory : IDesignTimeDbContextFactory<JeBalanceDb
         var configuration = BuildConfiguration();
 
         var builder = new DbContextOptionsBuilder<JeBalanceDbContext>()
-            .UseSqlServer(configuration.GetConnectionString("Default"));
+            .UseSqlite(configuration.GetConnectionString("Default"));
 
         return new JeBalanceDbContext(builder.Options);
     }

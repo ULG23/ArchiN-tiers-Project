@@ -17,3 +17,22 @@
 /Users/gauthiermiguet/Library/CloudStorage/GoogleDrive-gauthier.miguet22@gmail.com/My Drive/3A/Archi N-tier/Project/src/JeBalance.EntityFrameworkCore/obj/Debug/net7.0/JeBalance.EntityFrameworkCore.pdb
 /Users/gauthiermiguet/Library/CloudStorage/GoogleDrive-gauthier.miguet22@gmail.com/My Drive/3A/Archi N-tier/Project/src/JeBalance.EntityFrameworkCore/obj/Debug/net7.0/JeBalance.EntityFrameworkCore.genruntimeconfig.cache
 /Users/gauthiermiguet/Library/CloudStorage/GoogleDrive-gauthier.miguet22@gmail.com/My Drive/3A/Archi N-tier/Project/src/JeBalance.EntityFrameworkCore/obj/Debug/net7.0/ref/JeBalance.EntityFrameworkCore.dll
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.EntityFrameworkCore/bin/Debug/net7.0/JeBalance.EntityFrameworkCore.deps.json
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.EntityFrameworkCore/bin/Debug/net7.0/JeBalance.EntityFrameworkCore.runtimeconfig.json
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.EntityFrameworkCore/bin/Debug/net7.0/JeBalance.EntityFrameworkCore.dll
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.EntityFrameworkCore/bin/Debug/net7.0/JeBalance.EntityFrameworkCore.pdb
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.EntityFrameworkCore/bin/Debug/net7.0/JeBalance.Domain.dll
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.EntityFrameworkCore/bin/Debug/net7.0/JeBalance.Domain.Shared.dll
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.EntityFrameworkCore/bin/Debug/net7.0/JeBalance.Domain.pdb
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.EntityFrameworkCore/bin/Debug/net7.0/JeBalance.Domain.Shared.pdb
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.EntityFrameworkCore/obj/Debug/net7.0/JeBalance.EntityFrameworkCore.csproj.AssemblyReference.cache
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.EntityFrameworkCore/obj/Debug/net7.0/JeBalance.EntityFrameworkCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.EntityFrameworkCore/obj/Debug/net7.0/JeBalance.EntityFrameworkCore.AssemblyInfoInputs.cache
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.EntityFrameworkCore/obj/Debug/net7.0/JeBalance.EntityFrameworkCore.AssemblyInfo.cs
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.EntityFrameworkCore/obj/Debug/net7.0/JeBalance.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.EntityFrameworkCore/obj/Debug/net7.0/JeBalance.EntityFrameworkCore.csproj.CopyComplete
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.EntityFrameworkCore/obj/Debug/net7.0/JeBalance.EntityFrameworkCore.dll
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.EntityFrameworkCore/obj/Debug/net7.0/refint/JeBalance.EntityFrameworkCore.dll
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.EntityFrameworkCore/obj/Debug/net7.0/JeBalance.EntityFrameworkCore.pdb
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.EntityFrameworkCore/obj/Debug/net7.0/JeBalance.EntityFrameworkCore.genruntimeconfig.cache
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.EntityFrameworkCore/obj/Debug/net7.0/ref/JeBalance.EntityFrameworkCore.dll

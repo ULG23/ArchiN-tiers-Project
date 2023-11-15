@@ -40,7 +40,6 @@ public class JeBalanceMenuContributor : IMenuContributor
         }
         else
         {
-            administration.TryRemoveMenuItem(TenantManagementMenuNames.GroupName);
         }
 
         administration.SetSubItemOrder(IdentityMenuNames.GroupName, 2);

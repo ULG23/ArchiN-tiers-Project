@@ -1,0 +1,15 @@
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Application.Contracts/bin/Debug/net7.0/JeBalance.Application.Contracts.deps.json
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Application.Contracts/bin/Debug/net7.0/JeBalance.Application.Contracts.dll
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Application.Contracts/bin/Debug/net7.0/JeBalance.Application.Contracts.pdb
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Application.Contracts/bin/Debug/net7.0/JeBalance.Domain.Shared.dll
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Application.Contracts/bin/Debug/net7.0/JeBalance.Domain.Shared.pdb
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Application.Contracts/obj/Debug/net7.0/JeBalance.Application.Contracts.csproj.AssemblyReference.cache
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Application.Contracts/obj/Debug/net7.0/JeBalance.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Application.Contracts/obj/Debug/net7.0/JeBalance.Application.Contracts.AssemblyInfoInputs.cache
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Application.Contracts/obj/Debug/net7.0/JeBalance.Application.Contracts.AssemblyInfo.cs
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Application.Contracts/obj/Debug/net7.0/JeBalance.Application.Contracts.csproj.CoreCompileInputs.cache
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Application.Contracts/obj/Debug/net7.0/JeBalance.Application.Contracts.csproj.CopyComplete
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Application.Contracts/obj/Debug/net7.0/JeBalance.Application.Contracts.dll
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Application.Contracts/obj/Debug/net7.0/refint/JeBalance.Application.Contracts.dll
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Application.Contracts/obj/Debug/net7.0/JeBalance.Application.Contracts.pdb
+/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Application.Contracts/obj/Debug/net7.0/ref/JeBalance.Application.Contracts.dll

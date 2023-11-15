@@ -23,7 +23,6 @@ public class JeBalanceDbContext :
     IIdentityDbContext,
     ITenantManagementDbContext
 {
-    /* Add DbSet properties for your Aggregate Roots / Entities here. */
 
     #region Entities from the modules
 

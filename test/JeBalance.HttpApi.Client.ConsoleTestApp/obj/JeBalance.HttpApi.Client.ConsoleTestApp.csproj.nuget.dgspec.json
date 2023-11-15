@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/test/JeBalance.HttpApi.Client.ConsoleTestApp/JeBalance.HttpApi.Client.ConsoleTestApp.csproj": {}
+    "/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.HttpApi.Client.ConsoleTestApp/JeBalance.HttpApi.Client.ConsoleTestApp.csproj": {}
   },
   "projects": {
-    "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Application.Contracts/JeBalance.Application.Contracts.csproj": {
+    "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Application.Contracts/JeBalance.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Application.Contracts/JeBalance.Application.Contracts.csproj",
+        "projectUniqueName": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Application.Contracts/JeBalance.Application.Contracts.csproj",
         "projectName": "JeBalance.Application.Contracts",
-        "projectPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Application.Contracts/JeBalance.Application.Contracts.csproj",
+        "projectPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Application.Contracts/JeBalance.Application.Contracts.csproj",
         "packagesPath": "/Users/gauthiermiguet/.nuget/packages/",
-        "outputPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Application.Contracts/obj/",
+        "outputPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Application.Contracts/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
-          "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/NuGet.Config",
+          "/Users/gauthiermiguet/ArchiN-tiers-Project/NuGet.Config",
           "/Users/gauthiermiguet/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
@@ -30,24 +30,24 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj": {
-                "projectPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj"
+              "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj": {
+                "projectPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj"
               }
             }
           },
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj": {
-                "projectPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj"
+              "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj": {
+                "projectPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj"
               }
             }
           },
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj": {
-                "projectPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj"
+              "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj": {
+                "projectPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj"
               }
             }
           }
@@ -64,31 +64,31 @@
           "dependencies": {
             "Volo.Abp.Account.Application.Contracts": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.FeatureManagement.Application.Contracts": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.Identity.Application.Contracts": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.ObjectExtending": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.PermissionManagement.Application.Contracts": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.SettingManagement.Application.Contracts": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.TenantManagement.Application.Contracts": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             }
           },
           "imports": [
@@ -120,31 +120,31 @@
             },
             "Volo.Abp.Account.Application.Contracts": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.FeatureManagement.Application.Contracts": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.Identity.Application.Contracts": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.ObjectExtending": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.PermissionManagement.Application.Contracts": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.SettingManagement.Application.Contracts": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.TenantManagement.Application.Contracts": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             }
           },
           "imports": [
@@ -165,31 +165,31 @@
           "dependencies": {
             "Volo.Abp.Account.Application.Contracts": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.FeatureManagement.Application.Contracts": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.Identity.Application.Contracts": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.ObjectExtending": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.PermissionManagement.Application.Contracts": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.SettingManagement.Application.Contracts": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.TenantManagement.Application.Contracts": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             }
           },
           "imports": [
@@ -212,18 +212,18 @@
         }
       }
     },
-    "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj": {
+    "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj",
+        "projectUniqueName": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj",
         "projectName": "JeBalance.Domain.Shared",
-        "projectPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj",
+        "projectPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj",
         "packagesPath": "/Users/gauthiermiguet/.nuget/packages/",
-        "outputPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Domain.Shared/obj/",
+        "outputPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain.Shared/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
-          "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/NuGet.Config",
+          "/Users/gauthiermiguet/ArchiN-tiers-Project/NuGet.Config",
           "/Users/gauthiermiguet/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
@@ -260,39 +260,39 @@
           "dependencies": {
             "Microsoft.Extensions.FileProviders.Embedded": {
               "target": "Package",
-              "version": "[7.0.10, )"
+              "version": "[8.0.0, )"
             },
             "Volo.Abp.AuditLogging.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.BackgroundJobs.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.FeatureManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.Identity.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.OpenIddict.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.PermissionManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.SettingManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.TenantManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             }
           },
           "imports": [
@@ -318,7 +318,7 @@
           "dependencies": {
             "Microsoft.Extensions.FileProviders.Embedded": {
               "target": "Package",
-              "version": "[7.0.10, )"
+              "version": "[8.0.0, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -328,35 +328,35 @@
             },
             "Volo.Abp.AuditLogging.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.BackgroundJobs.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.FeatureManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.Identity.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.OpenIddict.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.PermissionManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.SettingManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.TenantManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             }
           },
           "imports": [
@@ -377,39 +377,39 @@
           "dependencies": {
             "Microsoft.Extensions.FileProviders.Embedded": {
               "target": "Package",
-              "version": "[7.0.10, )"
+              "version": "[8.0.0, )"
             },
             "Volo.Abp.AuditLogging.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.BackgroundJobs.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.FeatureManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.Identity.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.OpenIddict.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.PermissionManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.SettingManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.TenantManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             }
           },
           "imports": [
@@ -432,18 +432,18 @@
         }
       }
     },
-    "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.HttpApi.Client/JeBalance.HttpApi.Client.csproj": {
+    "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.HttpApi.Client/JeBalance.HttpApi.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.HttpApi.Client/JeBalance.HttpApi.Client.csproj",
+        "projectUniqueName": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.HttpApi.Client/JeBalance.HttpApi.Client.csproj",
         "projectName": "JeBalance.HttpApi.Client",
-        "projectPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.HttpApi.Client/JeBalance.HttpApi.Client.csproj",
+        "projectPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.HttpApi.Client/JeBalance.HttpApi.Client.csproj",
         "packagesPath": "/Users/gauthiermiguet/.nuget/packages/",
-        "outputPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.HttpApi.Client/obj/",
+        "outputPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.HttpApi.Client/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
-          "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/NuGet.Config",
+          "/Users/gauthiermiguet/ArchiN-tiers-Project/NuGet.Config",
           "/Users/gauthiermiguet/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
@@ -458,24 +458,24 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Application.Contracts/JeBalance.Application.Contracts.csproj": {
-                "projectPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Application.Contracts/JeBalance.Application.Contracts.csproj"
+              "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Application.Contracts/JeBalance.Application.Contracts.csproj": {
+                "projectPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Application.Contracts/JeBalance.Application.Contracts.csproj"
               }
             }
           },
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Application.Contracts/JeBalance.Application.Contracts.csproj": {
-                "projectPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Application.Contracts/JeBalance.Application.Contracts.csproj"
+              "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Application.Contracts/JeBalance.Application.Contracts.csproj": {
+                "projectPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Application.Contracts/JeBalance.Application.Contracts.csproj"
               }
             }
           },
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Application.Contracts/JeBalance.Application.Contracts.csproj": {
-                "projectPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Application.Contracts/JeBalance.Application.Contracts.csproj"
+              "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Application.Contracts/JeBalance.Application.Contracts.csproj": {
+                "projectPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Application.Contracts/JeBalance.Application.Contracts.csproj"
               }
             }
           }
@@ -492,27 +492,27 @@
           "dependencies": {
             "Volo.Abp.Account.HttpApi.Client": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.FeatureManagement.HttpApi.Client": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.Identity.HttpApi.Client": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.PermissionManagement.HttpApi.Client": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.SettingManagement.HttpApi.Client": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.TenantManagement.HttpApi.Client": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             }
           },
           "imports": [
@@ -544,27 +544,27 @@
             },
             "Volo.Abp.Account.HttpApi.Client": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.FeatureManagement.HttpApi.Client": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.Identity.HttpApi.Client": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.PermissionManagement.HttpApi.Client": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.SettingManagement.HttpApi.Client": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.TenantManagement.HttpApi.Client": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             }
           },
           "imports": [
@@ -585,27 +585,27 @@
           "dependencies": {
             "Volo.Abp.Account.HttpApi.Client": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.FeatureManagement.HttpApi.Client": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.Identity.HttpApi.Client": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.PermissionManagement.HttpApi.Client": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.SettingManagement.HttpApi.Client": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.TenantManagement.HttpApi.Client": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             }
           },
           "imports": [
@@ -628,17 +628,17 @@
         }
       }
     },
-    "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/test/JeBalance.HttpApi.Client.ConsoleTestApp/JeBalance.HttpApi.Client.ConsoleTestApp.csproj": {
+    "/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.HttpApi.Client.ConsoleTestApp/JeBalance.HttpApi.Client.ConsoleTestApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/test/JeBalance.HttpApi.Client.ConsoleTestApp/JeBalance.HttpApi.Client.ConsoleTestApp.csproj",
+        "projectUniqueName": "/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.HttpApi.Client.ConsoleTestApp/JeBalance.HttpApi.Client.ConsoleTestApp.csproj",
         "projectName": "JeBalance.HttpApi.Client.ConsoleTestApp",
-        "projectPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/test/JeBalance.HttpApi.Client.ConsoleTestApp/JeBalance.HttpApi.Client.ConsoleTestApp.csproj",
+        "projectPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.HttpApi.Client.ConsoleTestApp/JeBalance.HttpApi.Client.ConsoleTestApp.csproj",
         "packagesPath": "/Users/gauthiermiguet/.nuget/packages/",
-        "outputPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/test/JeBalance.HttpApi.Client.ConsoleTestApp/obj/",
+        "outputPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.HttpApi.Client.ConsoleTestApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/NuGet.Config",
+          "/Users/gauthiermiguet/ArchiN-tiers-Project/NuGet.Config",
           "/Users/gauthiermiguet/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
@@ -651,8 +651,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.HttpApi.Client/JeBalance.HttpApi.Client.csproj": {
-                "projectPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.HttpApi.Client/JeBalance.HttpApi.Client.csproj"
+              "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.HttpApi.Client/JeBalance.HttpApi.Client.csproj": {
+                "projectPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.HttpApi.Client/JeBalance.HttpApi.Client.csproj"
               }
             }
           }

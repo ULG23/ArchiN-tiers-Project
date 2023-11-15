@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj": {}
+    "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj": {}
   },
   "projects": {
-    "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj": {
+    "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj",
+        "projectUniqueName": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj",
         "projectName": "JeBalance.Domain.Shared",
-        "projectPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj",
+        "projectPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj",
         "packagesPath": "/Users/gauthiermiguet/.nuget/packages/",
-        "outputPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Domain.Shared/obj/",
+        "outputPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain.Shared/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
-          "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/NuGet.Config",
+          "/Users/gauthiermiguet/ArchiN-tiers-Project/NuGet.Config",
           "/Users/gauthiermiguet/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
@@ -52,39 +52,39 @@
           "dependencies": {
             "Microsoft.Extensions.FileProviders.Embedded": {
               "target": "Package",
-              "version": "[7.0.10, )"
+              "version": "[8.0.0, )"
             },
             "Volo.Abp.AuditLogging.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.BackgroundJobs.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.FeatureManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.Identity.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.OpenIddict.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.PermissionManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.SettingManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.TenantManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             }
           },
           "imports": [
@@ -110,7 +110,7 @@
           "dependencies": {
             "Microsoft.Extensions.FileProviders.Embedded": {
               "target": "Package",
-              "version": "[7.0.10, )"
+              "version": "[8.0.0, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -120,35 +120,35 @@
             },
             "Volo.Abp.AuditLogging.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.BackgroundJobs.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.FeatureManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.Identity.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.OpenIddict.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.PermissionManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.SettingManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.TenantManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             }
           },
           "imports": [
@@ -169,39 +169,39 @@
           "dependencies": {
             "Microsoft.Extensions.FileProviders.Embedded": {
               "target": "Package",
-              "version": "[7.0.10, )"
+              "version": "[8.0.0, )"
             },
             "Volo.Abp.AuditLogging.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.BackgroundJobs.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.FeatureManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.Identity.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.OpenIddict.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.PermissionManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.SettingManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.TenantManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             }
           },
           "imports": [

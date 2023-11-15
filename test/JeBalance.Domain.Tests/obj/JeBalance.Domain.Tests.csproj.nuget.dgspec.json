@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/test/JeBalance.Domain.Tests/JeBalance.Domain.Tests.csproj": {}
+    "/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.Domain.Tests/JeBalance.Domain.Tests.csproj": {}
   },
   "projects": {
-    "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj": {
+    "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj",
+        "projectUniqueName": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj",
         "projectName": "JeBalance.Domain.Shared",
-        "projectPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj",
+        "projectPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj",
         "packagesPath": "/Users/gauthiermiguet/.nuget/packages/",
-        "outputPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Domain.Shared/obj/",
+        "outputPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain.Shared/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
-          "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/NuGet.Config",
+          "/Users/gauthiermiguet/ArchiN-tiers-Project/NuGet.Config",
           "/Users/gauthiermiguet/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
@@ -52,39 +52,39 @@
           "dependencies": {
             "Microsoft.Extensions.FileProviders.Embedded": {
               "target": "Package",
-              "version": "[7.0.10, )"
+              "version": "[8.0.0, )"
             },
             "Volo.Abp.AuditLogging.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.BackgroundJobs.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.FeatureManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.Identity.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.OpenIddict.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.PermissionManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.SettingManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.TenantManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             }
           },
           "imports": [
@@ -110,7 +110,7 @@
           "dependencies": {
             "Microsoft.Extensions.FileProviders.Embedded": {
               "target": "Package",
-              "version": "[7.0.10, )"
+              "version": "[8.0.0, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -120,35 +120,35 @@
             },
             "Volo.Abp.AuditLogging.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.BackgroundJobs.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.FeatureManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.Identity.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.OpenIddict.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.PermissionManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.SettingManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.TenantManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             }
           },
           "imports": [
@@ -169,39 +169,39 @@
           "dependencies": {
             "Microsoft.Extensions.FileProviders.Embedded": {
               "target": "Package",
-              "version": "[7.0.10, )"
+              "version": "[8.0.0, )"
             },
             "Volo.Abp.AuditLogging.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.BackgroundJobs.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.FeatureManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.Identity.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.OpenIddict.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.PermissionManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.SettingManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.TenantManagement.Domain.Shared": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             }
           },
           "imports": [
@@ -224,17 +224,17 @@
         }
       }
     },
-    "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Domain/JeBalance.Domain.csproj": {
+    "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain/JeBalance.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Domain/JeBalance.Domain.csproj",
+        "projectUniqueName": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain/JeBalance.Domain.csproj",
         "projectName": "JeBalance.Domain",
-        "projectPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Domain/JeBalance.Domain.csproj",
+        "projectPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain/JeBalance.Domain.csproj",
         "packagesPath": "/Users/gauthiermiguet/.nuget/packages/",
-        "outputPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Domain/obj/",
+        "outputPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/NuGet.Config",
+          "/Users/gauthiermiguet/ArchiN-tiers-Project/NuGet.Config",
           "/Users/gauthiermiguet/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
@@ -247,8 +247,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj": {
-                "projectPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj"
+              "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj": {
+                "projectPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain.Shared/JeBalance.Domain.Shared.csproj"
               }
             }
           }
@@ -265,43 +265,43 @@
           "dependencies": {
             "Volo.Abp.AuditLogging.Domain": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.BackgroundJobs.Domain": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.Emailing": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.FeatureManagement.Domain": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.Identity.Domain": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.OpenIddict.Domain": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.PermissionManagement.Domain.Identity": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.PermissionManagement.Domain.OpenIddict": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.SettingManagement.Domain": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.TenantManagement.Domain": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             }
           },
           "imports": [
@@ -324,17 +324,17 @@
         }
       }
     },
-    "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.EntityFrameworkCore/JeBalance.EntityFrameworkCore.csproj": {
+    "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.EntityFrameworkCore/JeBalance.EntityFrameworkCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.EntityFrameworkCore/JeBalance.EntityFrameworkCore.csproj",
+        "projectUniqueName": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.EntityFrameworkCore/JeBalance.EntityFrameworkCore.csproj",
         "projectName": "JeBalance.EntityFrameworkCore",
-        "projectPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.EntityFrameworkCore/JeBalance.EntityFrameworkCore.csproj",
+        "projectPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.EntityFrameworkCore/JeBalance.EntityFrameworkCore.csproj",
         "packagesPath": "/Users/gauthiermiguet/.nuget/packages/",
-        "outputPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.EntityFrameworkCore/obj/",
+        "outputPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.EntityFrameworkCore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/NuGet.Config",
+          "/Users/gauthiermiguet/ArchiN-tiers-Project/NuGet.Config",
           "/Users/gauthiermiguet/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
@@ -347,8 +347,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Domain/JeBalance.Domain.csproj": {
-                "projectPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Domain/JeBalance.Domain.csproj"
+              "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain/JeBalance.Domain.csproj": {
+                "projectPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain/JeBalance.Domain.csproj"
               }
             }
           }
@@ -371,39 +371,39 @@
             },
             "Volo.Abp.AuditLogging.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.BackgroundJobs.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
-            "Volo.Abp.EntityFrameworkCore.SqlServer": {
+            "Volo.Abp.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.FeatureManagement.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.OpenIddict.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.PermissionManagement.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.SettingManagement.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.TenantManagement.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             }
           },
           "imports": [
@@ -426,17 +426,17 @@
         }
       }
     },
-    "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/test/JeBalance.Domain.Tests/JeBalance.Domain.Tests.csproj": {
+    "/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.Domain.Tests/JeBalance.Domain.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/test/JeBalance.Domain.Tests/JeBalance.Domain.Tests.csproj",
+        "projectUniqueName": "/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.Domain.Tests/JeBalance.Domain.Tests.csproj",
         "projectName": "JeBalance.Domain.Tests",
-        "projectPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/test/JeBalance.Domain.Tests/JeBalance.Domain.Tests.csproj",
+        "projectPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.Domain.Tests/JeBalance.Domain.Tests.csproj",
         "packagesPath": "/Users/gauthiermiguet/.nuget/packages/",
-        "outputPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/test/JeBalance.Domain.Tests/obj/",
+        "outputPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.Domain.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/NuGet.Config",
+          "/Users/gauthiermiguet/ArchiN-tiers-Project/NuGet.Config",
           "/Users/gauthiermiguet/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
@@ -449,8 +449,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/test/JeBalance.EntityFrameworkCore.Tests/JeBalance.EntityFrameworkCore.Tests.csproj": {
-                "projectPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/test/JeBalance.EntityFrameworkCore.Tests/JeBalance.EntityFrameworkCore.Tests.csproj"
+              "/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.EntityFrameworkCore.Tests/JeBalance.EntityFrameworkCore.Tests.csproj": {
+                "projectPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.EntityFrameworkCore.Tests/JeBalance.EntityFrameworkCore.Tests.csproj"
               }
             }
           }
@@ -490,17 +490,17 @@
         }
       }
     },
-    "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/test/JeBalance.EntityFrameworkCore.Tests/JeBalance.EntityFrameworkCore.Tests.csproj": {
+    "/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.EntityFrameworkCore.Tests/JeBalance.EntityFrameworkCore.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/test/JeBalance.EntityFrameworkCore.Tests/JeBalance.EntityFrameworkCore.Tests.csproj",
+        "projectUniqueName": "/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.EntityFrameworkCore.Tests/JeBalance.EntityFrameworkCore.Tests.csproj",
         "projectName": "JeBalance.EntityFrameworkCore.Tests",
-        "projectPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/test/JeBalance.EntityFrameworkCore.Tests/JeBalance.EntityFrameworkCore.Tests.csproj",
+        "projectPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.EntityFrameworkCore.Tests/JeBalance.EntityFrameworkCore.Tests.csproj",
         "packagesPath": "/Users/gauthiermiguet/.nuget/packages/",
-        "outputPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/test/JeBalance.EntityFrameworkCore.Tests/obj/",
+        "outputPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.EntityFrameworkCore.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/NuGet.Config",
+          "/Users/gauthiermiguet/ArchiN-tiers-Project/NuGet.Config",
           "/Users/gauthiermiguet/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
@@ -513,11 +513,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.EntityFrameworkCore/JeBalance.EntityFrameworkCore.csproj": {
-                "projectPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.EntityFrameworkCore/JeBalance.EntityFrameworkCore.csproj"
+              "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.EntityFrameworkCore/JeBalance.EntityFrameworkCore.csproj": {
+                "projectPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.EntityFrameworkCore/JeBalance.EntityFrameworkCore.csproj"
               },
-              "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/test/JeBalance.TestBase/JeBalance.TestBase.csproj": {
-                "projectPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/test/JeBalance.TestBase/JeBalance.TestBase.csproj"
+              "/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.TestBase/JeBalance.TestBase.csproj": {
+                "projectPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.TestBase/JeBalance.TestBase.csproj"
               }
             }
           }
@@ -561,17 +561,17 @@
         }
       }
     },
-    "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/test/JeBalance.TestBase/JeBalance.TestBase.csproj": {
+    "/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.TestBase/JeBalance.TestBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/test/JeBalance.TestBase/JeBalance.TestBase.csproj",
+        "projectUniqueName": "/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.TestBase/JeBalance.TestBase.csproj",
         "projectName": "JeBalance.TestBase",
-        "projectPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/test/JeBalance.TestBase/JeBalance.TestBase.csproj",
+        "projectPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.TestBase/JeBalance.TestBase.csproj",
         "packagesPath": "/Users/gauthiermiguet/.nuget/packages/",
-        "outputPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/test/JeBalance.TestBase/obj/",
+        "outputPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.TestBase/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/NuGet.Config",
+          "/Users/gauthiermiguet/ArchiN-tiers-Project/NuGet.Config",
           "/Users/gauthiermiguet/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
@@ -584,8 +584,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Domain/JeBalance.Domain.csproj": {
-                "projectPath": "/Users/gauthiermiguet/Documents/Archi N-tiers/Project/src/JeBalance.Domain/JeBalance.Domain.csproj"
+              "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain/JeBalance.Domain.csproj": {
+                "projectPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain/JeBalance.Domain.csproj"
               }
             }
           }
@@ -602,45 +602,47 @@
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.2.0, )"
+              "version": "[17.8.0, )"
             },
             "NSubstitute": {
               "target": "Package",
-              "version": "[4.3.0, )"
+              "version": "[5.1.0, )"
             },
             "NSubstitute.Analyzers.CSharp": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[1.0.15, )"
+              "version": "[1.0.16, )"
             },
             "Shouldly": {
               "target": "Package",
-              "version": "[4.1.0, )"
+              "version": "[4.2.1, )"
             },
             "Volo.Abp.Authorization": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.Autofac": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "Volo.Abp.TestBase": {
               "target": "Package",
-              "version": "[7.4.1, )"
+              "version": "[7.4.2, )"
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.4.1, )"
+              "version": "[2.6.1, )"
             },
             "xunit.extensibility.execution": {
               "target": "Package",
-              "version": "[2.4.1, )"
+              "version": "[2.6.1, )"
             },
             "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[2.4.5, )"
+              "version": "[2.5.3, )"
             }
           },
           "imports": [
