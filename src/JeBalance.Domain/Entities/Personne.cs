@@ -8,6 +8,10 @@ namespace JeBalance.Entities
 		public required string Nom { get; set; }
 
 		public required Adresse Adresse { get; set; }
+
+		public bool Calominateur { get; set; }
+
+		public bool VIP { get; set; }
 	}
 }
 

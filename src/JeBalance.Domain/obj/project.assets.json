@@ -370,18 +370,18 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.FileProviders.Abstractions/7.0.0": {
+      "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "7.0.0"
+          "Microsoft.Extensions.Primitives": "8.0.0"
         },
         "compile": {
-          "lib/net7.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+          "lib/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+          "lib/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
             "related": ".xml"
           }
         },
@@ -409,18 +409,18 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.FileProviders.Embedded/7.0.10": {
+      "Microsoft.Extensions.FileProviders.Embedded/8.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.FileProviders.Abstractions": "7.0.0"
+          "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0"
         },
         "compile": {
-          "lib/net7.0/Microsoft.Extensions.FileProviders.Embedded.dll": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/Microsoft.Extensions.FileProviders.Embedded.dll": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.dll": {
             "related": ".xml"
           }
         },
@@ -620,7 +620,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Primitives/7.0.0": {
+      "Microsoft.Extensions.Primitives/8.0.0": {
         "type": "package",
         "compile": {
           "lib/net7.0/Microsoft.Extensions.Primitives.dll": {
@@ -2445,15 +2445,15 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Extensions.FileProviders.Embedded": "7.0.10",
-          "Volo.Abp.AuditLogging.Domain.Shared": "7.4.1",
-          "Volo.Abp.BackgroundJobs.Domain.Shared": "7.4.1",
-          "Volo.Abp.FeatureManagement.Domain.Shared": "7.4.1",
-          "Volo.Abp.Identity.Domain.Shared": "7.4.1",
-          "Volo.Abp.OpenIddict.Domain.Shared": "7.4.1",
-          "Volo.Abp.PermissionManagement.Domain.Shared": "7.4.1",
-          "Volo.Abp.SettingManagement.Domain.Shared": "7.4.1",
-          "Volo.Abp.TenantManagement.Domain.Shared": "7.4.1"
+          "Microsoft.Extensions.FileProviders.Embedded": "8.0.0",
+          "Volo.Abp.AuditLogging.Domain.Shared": "7.4.2",
+          "Volo.Abp.BackgroundJobs.Domain.Shared": "7.4.2",
+          "Volo.Abp.FeatureManagement.Domain.Shared": "7.4.2",
+          "Volo.Abp.Identity.Domain.Shared": "7.4.2",
+          "Volo.Abp.OpenIddict.Domain.Shared": "7.4.2",
+          "Volo.Abp.PermissionManagement.Domain.Shared": "7.4.2",
+          "Volo.Abp.SettingManagement.Domain.Shared": "7.4.2",
+          "Volo.Abp.TenantManagement.Domain.Shared": "7.4.2"
         },
         "compile": {
           "bin/placeholder/JeBalance.Domain.Shared.dll": {}
@@ -3023,15 +3023,16 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.FileProviders.Abstractions/7.0.0": {
-      "sha512": "NyawiW9ZT/liQb34k9YqBSNPLuuPkrjMgQZ24Y/xXX1RoiBkLUdPMaQTmxhZ5TYu8ZKZ9qayzil75JX95vGQUg==",
+    "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
+      "sha512": "ZbaMlhJlpisjuWbvXr4LdAst/1XxH3vZ6A0BsgTphZ2L4PGuxRLz7Jr/S7mkAAnOn78Vu0fKhEgNF5JO3zfjqQ==",
       "type": "package",
-      "path": "microsoft.extensions.fileproviders.abstractions/7.0.0",
+      "path": "microsoft.extensions.fileproviders.abstractions/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
+        "PACKAGE.md",
         "THIRD-PARTY-NOTICES.TXT",
         "buildTransitive/net461/Microsoft.Extensions.FileProviders.Abstractions.targets",
         "buildTransitive/net462/_._",
@@ -3041,11 +3042,11 @@
         "lib/net462/Microsoft.Extensions.FileProviders.Abstractions.xml",
         "lib/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
         "lib/net6.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
-        "lib/net7.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
-        "lib/net7.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
-        "microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
         "microsoft.extensions.fileproviders.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -3077,10 +3078,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.FileProviders.Embedded/7.0.10": {
-      "sha512": "XzWmAHg4YZQ9iAWuv0DhaP6jtn1m08xeP6aW8S6SDkYzC3MDjQbvsgskLywigJBnaAZgt+pR52eG84tS1JxQAQ==",
+    "Microsoft.Extensions.FileProviders.Embedded/8.0.0": {
+      "sha512": "TuRh62KcoOvaSDCbtHT8K0WYptZysYQHPRRNfOgqF7ZUtUL4O0WMV8RdxbtDFJDsg3jv9bgHwXbrgwTeI9+5uQ==",
       "type": "package",
-      "path": "microsoft.extensions.fileproviders.embedded/7.0.10",
+      "path": "microsoft.extensions.fileproviders.embedded/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3091,11 +3092,11 @@
         "buildMultiTargeting/Microsoft.Extensions.FileProviders.Embedded.targets",
         "lib/net462/Microsoft.Extensions.FileProviders.Embedded.dll",
         "lib/net462/Microsoft.Extensions.FileProviders.Embedded.xml",
-        "lib/net7.0/Microsoft.Extensions.FileProviders.Embedded.dll",
-        "lib/net7.0/Microsoft.Extensions.FileProviders.Embedded.xml",
+        "lib/net8.0/Microsoft.Extensions.FileProviders.Embedded.dll",
+        "lib/net8.0/Microsoft.Extensions.FileProviders.Embedded.xml",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.dll",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.xml",
-        "microsoft.extensions.fileproviders.embedded.7.0.10.nupkg.sha512",
+        "microsoft.extensions.fileproviders.embedded.8.0.0.nupkg.sha512",
         "microsoft.extensions.fileproviders.embedded.nuspec",
         "tasks/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.Manifest.Task.dll"
       ]
@@ -3395,15 +3396,16 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Primitives/7.0.0": {
-      "sha512": "um1KU5kxcRp3CNuI8o/GrZtD4AIOXDk+RLsytjZ9QPok3ttLUelLKpilVPuaFT3TFjOhSibUAso0odbOaCDj3Q==",
+    "Microsoft.Extensions.Primitives/8.0.0": {
+      "sha512": "bXJEZrW9ny8vjMF1JV253WeLhpEVzFo1lyaZu1vQ4ZxWUlVvknZ/+ftFgVheLubb4eZPSwwxBeqS1JkCOjxd8g==",
       "type": "package",
-      "path": "microsoft.extensions.primitives/7.0.0",
+      "path": "microsoft.extensions.primitives/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
+        "PACKAGE.md",
         "THIRD-PARTY-NOTICES.TXT",
         "buildTransitive/net461/Microsoft.Extensions.Primitives.targets",
         "buildTransitive/net462/_._",
@@ -3415,9 +3417,11 @@
         "lib/net6.0/Microsoft.Extensions.Primitives.xml",
         "lib/net7.0/Microsoft.Extensions.Primitives.dll",
         "lib/net7.0/Microsoft.Extensions.Primitives.xml",
+        "lib/net8.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net8.0/Microsoft.Extensions.Primitives.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
-        "microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+        "microsoft.extensions.primitives.8.0.0.nupkg.sha512",
         "microsoft.extensions.primitives.nuspec",
         "useSharedDesignerContext.txt"
       ]

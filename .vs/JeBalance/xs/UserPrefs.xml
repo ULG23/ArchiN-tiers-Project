@@ -1,0 +1,64 @@
+﻿<Properties StartupConfiguration="{068855E8-9240-4F1A-910B-CF825794513B}|Default">
+  <MonoDevelop.Ide.ItemProperties.src.JeBalance.Web PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/JeBalance.Domain/Entities/Confirmation.cs">
+    <Files>
+      <File FileName="src/JeBalance.Application/JeBalanceAppService.cs" />
+      <File FileName="src/JeBalance.Application/JeBalanceApplicationModule.cs" Line="28" Column="29" />
+      <File FileName="src/JeBalance.Domain/Data/NullJeBalanceDbSchemaMigrator.cs" />
+      <File FileName="src/JeBalance.Domain/Properties/AssemblyInfo.cs" />
+      <File FileName="src/JeBalance.Web/Pages/Index.js" />
+      <File FileName="src/JeBalance.Web/JeBalanceWebModule.cs" />
+      <File FileName="src/JeBalance.EntityFrameworkCore/EntityFrameworkCore/JeBalanceDbContext.cs" />
+      <File FileName="src/JeBalance.EntityFrameworkCore/EntityFrameworkCore/JeBalanceDbContextFactory.cs" />
+      <File FileName="src/JeBalance.Domain/Entities/Personne.cs" Line="16" Column="2" />
+      <File FileName="src/JeBalance.EntityFrameworkCore/EntityFrameworkCore/JeBalanceEntityFrameworkCoreModule.cs" Line="50" Column="30" />
+      <File FileName="src/JeBalance.Web/Menus/JeBalanceMenuContributor.cs" />
+      <File FileName="test/JeBalance.EntityFrameworkCore.Tests/JeBalance.EntityFrameworkCore.Tests.csproj" Line="1" Column="1" />
+      <File FileName="src/JeBalance.Application.Contracts/DTOs/AdresseDTO.cs" Line="12" Column="58" />
+      <File FileName="src/JeBalance.Domain/Entities/Adresse.cs" Line="11" Column="58" />
+      <File FileName="src/JeBalance.Application.Contracts/DTOs/PersonneDTO.cs" Line="14" Column="1" />
+      <File FileName="src/JeBalance.Domain.Shared/Enums/eFraude.cs" Line="6" Column="20" />
+      <File FileName="src/JeBalance.Domain/Entities/Denonciation.cs" Line="17" Column="10" />
+      <File FileName="src/JeBalance.Domain/Entities/Suspect.cs" Line="11" Column="50" />
+      <File FileName="src/JeBalance.Domain/Entities/Informateur.cs" Line="9" Column="53" />
+      <File FileName="src/JeBalance.Domain/Entities/Reponse.cs" Line="6" Column="18" />
+      <File FileName="src/JeBalance.Domain/Entities/Confirmation.cs" Line="9" Column="6" />
+      <File FileName="src/JeBalance.Domain/Entities/Administrateur.cs" Line="8" Column="3" />
+      <File FileName="jebalance-gouv-fr.md" Line="101" Column="7" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="JeBalance">
+            <Node name="src" expanded="True">
+              <Node name="JeBalance.Application" expanded="True" />
+              <Node name="JeBalance.Application.Contracts">
+                <Node name="DTOs" expanded="True" />
+                <Node name="Permissions" expanded="True" />
+              </Node>
+              <Node name="JeBalance.Domain">
+                <Node name="Data" expanded="True" />
+                <Node name="Entities">
+                  <Node name="Confirmation.cs" selected="True" />
+                </Node>
+                <Node name="Properties" expanded="True" />
+              </Node>
+              <Node name="JeBalance.Domain.Shared">
+                <Node name="Enums" expanded="True" />
+              </Node>
+              <Node name="JeBalance.EntityFrameworkCore" expanded="True">
+                <Node name="EntityFrameworkCore" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

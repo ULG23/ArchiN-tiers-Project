@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "u5axFLZFWRv+cqmTiIYGx0HC05eWhTDX1htz8TES87Des9xX8sJSa+AWBGWQ7NtTvqDJCqOlFziPQwytIFjwrA==",
+  "dgSpecHash": "Dk3jSGQb0PbzsNzbAjDlcT0GYAHa8l/TppvaY/1JD0j/HEFHb8d0pvF6aSvI5p96GeK9rFLsgP0/BZszyEYyNg==",
   "success": true,
   "projectFilePath": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain/JeBalance.Domain.csproj",
   "expectedPackageFiles": [
@@ -25,9 +25,9 @@
     "/Users/gauthiermiguet/.nuget/packages/microsoft.extensions.configuration.usersecrets/7.0.0/microsoft.extensions.configuration.usersecrets.7.0.0.nupkg.sha512",
     "/Users/gauthiermiguet/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "/Users/gauthiermiguet/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
-    "/Users/gauthiermiguet/.nuget/packages/microsoft.extensions.fileproviders.abstractions/7.0.0/microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
+    "/Users/gauthiermiguet/.nuget/packages/microsoft.extensions.fileproviders.abstractions/8.0.0/microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
     "/Users/gauthiermiguet/.nuget/packages/microsoft.extensions.fileproviders.composite/7.0.0/microsoft.extensions.fileproviders.composite.7.0.0.nupkg.sha512",
-    "/Users/gauthiermiguet/.nuget/packages/microsoft.extensions.fileproviders.embedded/7.0.10/microsoft.extensions.fileproviders.embedded.7.0.10.nupkg.sha512",
+    "/Users/gauthiermiguet/.nuget/packages/microsoft.extensions.fileproviders.embedded/8.0.0/microsoft.extensions.fileproviders.embedded.8.0.0.nupkg.sha512",
     "/Users/gauthiermiguet/.nuget/packages/microsoft.extensions.fileproviders.physical/7.0.0/microsoft.extensions.fileproviders.physical.7.0.0.nupkg.sha512",
     "/Users/gauthiermiguet/.nuget/packages/microsoft.extensions.filesystemglobbing/7.0.0/microsoft.extensions.filesystemglobbing.7.0.0.nupkg.sha512",
     "/Users/gauthiermiguet/.nuget/packages/microsoft.extensions.hosting.abstractions/7.0.0/microsoft.extensions.hosting.abstractions.7.0.0.nupkg.sha512",
@@ -38,7 +38,7 @@
     "/Users/gauthiermiguet/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.1/microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
     "/Users/gauthiermiguet/.nuget/packages/microsoft.extensions.options/7.0.1/microsoft.extensions.options.7.0.1.nupkg.sha512",
     "/Users/gauthiermiguet/.nuget/packages/microsoft.extensions.options.configurationextensions/7.0.0/microsoft.extensions.options.configurationextensions.7.0.0.nupkg.sha512",
-    "/Users/gauthiermiguet/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "/Users/gauthiermiguet/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "/Users/gauthiermiguet/.nuget/packages/microsoft.identitymodel.abstractions/6.25.1/microsoft.identitymodel.abstractions.6.25.1.nupkg.sha512",
     "/Users/gauthiermiguet/.nuget/packages/microsoft.identitymodel.logging/6.25.1/microsoft.identitymodel.logging.6.25.1.nupkg.sha512",
     "/Users/gauthiermiguet/.nuget/packages/microsoft.identitymodel.tokens/6.25.1/microsoft.identitymodel.tokens.6.25.1.nupkg.sha512",
