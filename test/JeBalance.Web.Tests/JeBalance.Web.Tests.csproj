@@ -14,11 +14,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.2.0" />
-    <PackageReference Include="HtmlAgilityPack" Version="1.11.42" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.54" />
     <ProjectReference Include="..\JeBalance.Application.Tests\JeBalance.Application.Tests.csproj" />
     <ProjectReference Include="..\..\src\JeBalance.Web\JeBalance.Web.csproj" />
-    <PackageReference Include="Volo.Abp.AspNetCore.TestBase" Version="7.4.1" />
+    <PackageReference Include="Volo.Abp.AspNetCore.TestBase" Version="7.4.2" />
   </ItemGroup>
 
   <ItemGroup>

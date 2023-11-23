@@ -14,4 +14,3 @@ namespace JeBalance.Entities
 		public bool VIP { get; set; }
 	}
 }
-

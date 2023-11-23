@@ -255,7 +255,6 @@
 /Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.TestBase/bin/Debug/net7.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 /Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.TestBase/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll
 /Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.TestBase/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll
-/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.TestBase/bin/Debug/net7.0/runtimes/win/lib/netcoreapp2.0/System.Management.dll
 /Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.TestBase/bin/Debug/net7.0/JeBalance.Domain.dll
 /Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.TestBase/bin/Debug/net7.0/JeBalance.Domain.Shared.dll
 /Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.TestBase/bin/Debug/net7.0/JeBalance.Domain.pdb
@@ -271,3 +270,4 @@
 /Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.TestBase/obj/Debug/net7.0/JeBalance.TestBase.pdb
 /Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.TestBase/obj/Debug/net7.0/JeBalance.TestBase.genruntimeconfig.cache
 /Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.TestBase/obj/Debug/net7.0/ref/JeBalance.TestBase.dll
+/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.TestBase/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Management.dll

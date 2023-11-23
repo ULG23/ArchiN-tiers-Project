@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8epCmJZrLZ1Ey6oFVfiADgmdkDuwgpkLotP8Sc1MFoRMhQSijkZqlALxgdDteev3rYzztcfpOwYHsYqGEvsM8Q==",
+  "dgSpecHash": "LKdN8cMYCMVnhVAeuX3mTgVrTQUrwfzj7VXjUrxEZhv39+o9MKYIqNLclZKNWXNsJPmPRRhVzKrBTBcJ90UmGg==",
   "success": true,
   "projectFilePath": "/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.TestBase/JeBalance.TestBase.csproj",
   "expectedPackageFiles": [
@@ -217,14 +217,14 @@
     "/Users/gauthiermiguet/.nuget/packages/volo.abp.validation/7.4.2/volo.abp.validation.7.4.2.nupkg.sha512",
     "/Users/gauthiermiguet/.nuget/packages/volo.abp.validation.abstractions/7.4.2/volo.abp.validation.abstractions.7.4.2.nupkg.sha512",
     "/Users/gauthiermiguet/.nuget/packages/volo.abp.virtualfilesystem/7.4.2/volo.abp.virtualfilesystem.7.4.2.nupkg.sha512",
-    "/Users/gauthiermiguet/.nuget/packages/xunit/2.6.1/xunit.2.6.1.nupkg.sha512",
+    "/Users/gauthiermiguet/.nuget/packages/xunit/2.6.2/xunit.2.6.2.nupkg.sha512",
     "/Users/gauthiermiguet/.nuget/packages/xunit.abstractions/2.0.3/xunit.abstractions.2.0.3.nupkg.sha512",
-    "/Users/gauthiermiguet/.nuget/packages/xunit.analyzers/1.4.0/xunit.analyzers.1.4.0.nupkg.sha512",
-    "/Users/gauthiermiguet/.nuget/packages/xunit.assert/2.6.1/xunit.assert.2.6.1.nupkg.sha512",
-    "/Users/gauthiermiguet/.nuget/packages/xunit.core/2.6.1/xunit.core.2.6.1.nupkg.sha512",
-    "/Users/gauthiermiguet/.nuget/packages/xunit.extensibility.core/2.6.1/xunit.extensibility.core.2.6.1.nupkg.sha512",
-    "/Users/gauthiermiguet/.nuget/packages/xunit.extensibility.execution/2.6.1/xunit.extensibility.execution.2.6.1.nupkg.sha512",
-    "/Users/gauthiermiguet/.nuget/packages/xunit.runner.visualstudio/2.5.3/xunit.runner.visualstudio.2.5.3.nupkg.sha512"
+    "/Users/gauthiermiguet/.nuget/packages/xunit.analyzers/1.6.0/xunit.analyzers.1.6.0.nupkg.sha512",
+    "/Users/gauthiermiguet/.nuget/packages/xunit.assert/2.6.2/xunit.assert.2.6.2.nupkg.sha512",
+    "/Users/gauthiermiguet/.nuget/packages/xunit.core/2.6.2/xunit.core.2.6.2.nupkg.sha512",
+    "/Users/gauthiermiguet/.nuget/packages/xunit.extensibility.core/2.6.2/xunit.extensibility.core.2.6.2.nupkg.sha512",
+    "/Users/gauthiermiguet/.nuget/packages/xunit.extensibility.execution/2.6.2/xunit.extensibility.execution.2.6.2.nupkg.sha512",
+    "/Users/gauthiermiguet/.nuget/packages/xunit.runner.visualstudio/2.5.4/xunit.runner.visualstudio.2.5.4.nupkg.sha512"
   ],
   "logs": []
 }

@@ -3954,12 +3954,12 @@
           }
         }
       },
-      "xunit/2.6.1": {
+      "xunit/2.6.2": {
         "type": "package",
         "dependencies": {
-          "xunit.analyzers": "1.4.0",
-          "xunit.assert": "2.6.1",
-          "xunit.core": "[2.6.1]"
+          "xunit.analyzers": "1.6.0",
+          "xunit.assert": "2.6.2",
+          "xunit.core": "[2.6.2]"
         }
       },
       "xunit.abstractions/2.0.3": {
@@ -3975,10 +3975,10 @@
           }
         }
       },
-      "xunit.analyzers/1.4.0": {
+      "xunit.analyzers/1.6.0": {
         "type": "package"
       },
-      "xunit.assert/2.6.1": {
+      "xunit.assert/2.6.2": {
         "type": "package",
         "compile": {
           "lib/net6.0/xunit.assert.dll": {
@@ -3991,11 +3991,11 @@
           }
         }
       },
-      "xunit.core/2.6.1": {
+      "xunit.core/2.6.2": {
         "type": "package",
         "dependencies": {
-          "xunit.extensibility.core": "[2.6.1]",
-          "xunit.extensibility.execution": "[2.6.1]"
+          "xunit.extensibility.core": "[2.6.2]",
+          "xunit.extensibility.execution": "[2.6.2]"
         },
         "build": {
           "build/xunit.core.props": {},
@@ -4006,7 +4006,7 @@
           "buildMultiTargeting/xunit.core.targets": {}
         }
       },
-      "xunit.extensibility.core/2.6.1": {
+      "xunit.extensibility.core/2.6.2": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.1",
@@ -4023,11 +4023,11 @@
           }
         }
       },
-      "xunit.extensibility.execution/2.6.1": {
+      "xunit.extensibility.execution/2.6.2": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.1",
-          "xunit.extensibility.core": "[2.6.1]"
+          "xunit.extensibility.core": "[2.6.2]"
         },
         "compile": {
           "lib/netstandard1.1/xunit.execution.dotnet.dll": {
@@ -4040,7 +4040,7 @@
           }
         }
       },
-      "xunit.runner.visualstudio/2.5.3": {
+      "xunit.runner.visualstudio/2.5.4": {
         "type": "package",
         "compile": {
           "lib/net6.0/_._": {}
@@ -11225,16 +11225,16 @@
         "volo.abp.virtualfilesystem.nuspec"
       ]
     },
-    "xunit/2.6.1": {
-      "sha512": "SnTEV7LFf2s3GJua5AJKB/m115jDcWJSG5n02YZS05iezU2QJKjShCsOxlxL8FUO+J7h2/yXGEr+evgpIHc3sA==",
+    "xunit/2.6.2": {
+      "sha512": "sErOyzTZBfgeLcdu5y3CkhCirZikCe9GwEv56jbQRjSa4FyI2tIHjfBRvlWqg7M78bfAGajrreH0IHnxrUOpVA==",
       "type": "package",
-      "path": "xunit/2.6.1",
+      "path": "xunit/2.6.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "_content/README.md",
         "_content/logo-128-transparent.png",
-        "xunit.2.6.1.nupkg.sha512",
+        "xunit.2.6.2.nupkg.sha512",
         "xunit.nuspec"
       ]
     },
@@ -11255,10 +11255,10 @@
         "xunit.abstractions.nuspec"
       ]
     },
-    "xunit.analyzers/1.4.0": {
-      "sha512": "7ljnTJfFjz5zK+Jf0h2dd2QOSO6UmFizXsojv/x4QX7TU5vEgtKZPk9RvpkiuUqg2bddtNZufBoKQalsi7djfA==",
+    "xunit.analyzers/1.6.0": {
+      "sha512": "b/Wbrqr/bFvcjqAbYdJyCCvjz+PjjKMnoK/K6sbcCBu94pqAkB2vBAHFo87wNq2awsLPAuq5MA7q0XexyQ3mJQ==",
       "type": "package",
-      "path": "xunit.analyzers/1.4.0",
+      "path": "xunit.analyzers/1.6.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -11269,14 +11269,14 @@
         "analyzers/dotnet/cs/xunit.analyzers.fixes.dll",
         "tools/install.ps1",
         "tools/uninstall.ps1",
-        "xunit.analyzers.1.4.0.nupkg.sha512",
+        "xunit.analyzers.1.6.0.nupkg.sha512",
         "xunit.analyzers.nuspec"
       ]
     },
-    "xunit.assert/2.6.1": {
-      "sha512": "+4bI81RS88tiYvfsBfC0YsdDd8v7kkLkRtDXmux3YBT8u1afhjdwxwBvkHGgrQ6NPRzE8xZpVGX2iaLkbXvYvg==",
+    "xunit.assert/2.6.2": {
+      "sha512": "JOj2+zWS08M59bCk3MkZFcKj2Izb2zwkHSPIKJLvnZYLR2Nw6HifjvBCpa8XhMF3mxDuGwZ0+ncmlhE9WoEaZw==",
       "type": "package",
-      "path": "xunit.assert/2.6.1",
+      "path": "xunit.assert/2.6.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -11286,14 +11286,14 @@
         "lib/net6.0/xunit.assert.xml",
         "lib/netstandard1.1/xunit.assert.dll",
         "lib/netstandard1.1/xunit.assert.xml",
-        "xunit.assert.2.6.1.nupkg.sha512",
+        "xunit.assert.2.6.2.nupkg.sha512",
         "xunit.assert.nuspec"
       ]
     },
-    "xunit.core/2.6.1": {
-      "sha512": "Ru0POZXVYwa/G3/tS3TO3Yug/P+08RPeDkuepTmywNjfICYwHHY9zJBoxdeziZ0OintLtLKUMOBcC6VJzjqhwg==",
+    "xunit.core/2.6.2": {
+      "sha512": "LxJ06D9uTDyvHY52+Lym2TUlq3ObgAKSTuzM9gniau8qI1fd/CPag4PFaGs0RJfunUJtYHg9+XrS5EcW/5dxGA==",
       "type": "package",
-      "path": "xunit.core/2.6.1",
+      "path": "xunit.core/2.6.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -11303,14 +11303,14 @@
         "build/xunit.core.targets",
         "buildMultiTargeting/xunit.core.props",
         "buildMultiTargeting/xunit.core.targets",
-        "xunit.core.2.6.1.nupkg.sha512",
+        "xunit.core.2.6.2.nupkg.sha512",
         "xunit.core.nuspec"
       ]
     },
-    "xunit.extensibility.core/2.6.1": {
-      "sha512": "DA4NqcFGLlRxX2zP3QptlQuRoOSdmBkr17ntK29jfRXqScj2fysIhvQvF5DHtDzAEkoRPqZcfR/IRGSItxmRqw==",
+    "xunit.extensibility.core/2.6.2": {
+      "sha512": "T8CmshbP1EeaDibLwgU/aEe53zrW0+x+mEz5aKxexS5vVyj1UwgDUjcTK/+prMF/9KgMHkgx1vIe7wv58wO6RQ==",
       "type": "package",
-      "path": "xunit.extensibility.core/2.6.1",
+      "path": "xunit.extensibility.core/2.6.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -11323,14 +11323,14 @@
         "lib/net452/xunit.runner.utility.net452.dll",
         "lib/netstandard1.1/xunit.core.dll",
         "lib/netstandard1.1/xunit.core.xml",
-        "xunit.extensibility.core.2.6.1.nupkg.sha512",
+        "xunit.extensibility.core.2.6.2.nupkg.sha512",
         "xunit.extensibility.core.nuspec"
       ]
     },
-    "xunit.extensibility.execution/2.6.1": {
-      "sha512": "sLKPQKuEQhRuhVuLiYEkRdUcwCfp+BIKds3r0JL8AYvOWRmVYYKWYouuYzPjmeUF6iEGC9CHCVz/NF1+wv+Mag==",
+    "xunit.extensibility.execution/2.6.2": {
+      "sha512": "kKo7XqyLF8blXGqQHlqKQ+AzST42kpB7oG81Km/kFEzWVfeDMgaEquOLAr/ZiR4tnkUbbWYrY6CJPTavFqGn6Q==",
       "type": "package",
-      "path": "xunit.extensibility.execution/2.6.1",
+      "path": "xunit.extensibility.execution/2.6.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -11340,14 +11340,14 @@
         "lib/net452/xunit.execution.desktop.xml",
         "lib/netstandard1.1/xunit.execution.dotnet.dll",
         "lib/netstandard1.1/xunit.execution.dotnet.xml",
-        "xunit.extensibility.execution.2.6.1.nupkg.sha512",
+        "xunit.extensibility.execution.2.6.2.nupkg.sha512",
         "xunit.extensibility.execution.nuspec"
       ]
     },
-    "xunit.runner.visualstudio/2.5.3": {
-      "sha512": "HFFL6O+QLEOfs555SqHii48ovVa4CqGYanY+B32BjLpPptdE+wEJmCFNXlLHdEOD5LYeayb9EroaUpydGpcybg==",
+    "xunit.runner.visualstudio/2.5.4": {
+      "sha512": "YUtEOBdArAISyb1cTWcHc6/bilSDB9q5lc8ughPQP1MqlAKSkxKMBqLQ+tiWMFRBd2o22E59nLD/4V5R3jfZxQ==",
       "type": "package",
-      "path": "xunit.runner.visualstudio/2.5.3",
+      "path": "xunit.runner.visualstudio/2.5.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -11365,7 +11365,7 @@
         "build/net6.0/xunit.runner.visualstudio.props",
         "lib/net462/_._",
         "lib/net6.0/_._",
-        "xunit.runner.visualstudio.2.5.3.nupkg.sha512",
+        "xunit.runner.visualstudio.2.5.4.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
     },
@@ -11390,9 +11390,9 @@
       "Volo.Abp.Authorization >= 7.4.2",
       "Volo.Abp.Autofac >= 7.4.2",
       "Volo.Abp.TestBase >= 7.4.2",
-      "xunit >= 2.6.1",
-      "xunit.extensibility.execution >= 2.6.1",
-      "xunit.runner.visualstudio >= 2.5.3"
+      "xunit >= 2.6.2",
+      "xunit.extensibility.execution >= 2.6.2",
+      "xunit.runner.visualstudio >= 2.5.4"
     ]
   },
   "packageFolders": {
@@ -11469,17 +11469,17 @@
           },
           "xunit": {
             "target": "Package",
-            "version": "[2.6.1, )"
+            "version": "[2.6.2, )"
           },
           "xunit.extensibility.execution": {
             "target": "Package",
-            "version": "[2.6.1, )"
+            "version": "[2.6.2, )"
           },
           "xunit.runner.visualstudio": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.5.3, )"
+            "version": "[2.5.4, )"
           }
         },
         "imports": [
@@ -11498,7 +11498,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.404/RuntimeIdentifierGraph.json"
       }
     }
   }

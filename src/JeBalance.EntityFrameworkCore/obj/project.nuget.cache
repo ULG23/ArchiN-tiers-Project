@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qt43+h7qR1lEFUIhMIiTM7lRPN+gJrTbuCIDIRNYTZiP6WjyJnxa5Irqr+4T2++ocIXHhAkQu/dYL05/+Htb5g==",
+  "dgSpecHash": "IGKtJ7N6mT08vaWoZnDshr0wEvRbDPOjGXjyrsFaXLkIlSac+YwUZrgVxGgZKEnuIypVpmmZr66Icu2cg8c4vA==",
   "success": true,
   "projectFilePath": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.EntityFrameworkCore/JeBalance.EntityFrameworkCore.csproj",
   "expectedPackageFiles": [
@@ -18,7 +18,7 @@
     "/Users/gauthiermiguet/.nuget/packages/microsoft.entityframeworkcore/7.0.10/microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
     "/Users/gauthiermiguet/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.10/microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",
     "/Users/gauthiermiguet/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.10/microsoft.entityframeworkcore.analyzers.7.0.10.nupkg.sha512",
-    "/Users/gauthiermiguet/.nuget/packages/microsoft.entityframeworkcore.design/7.0.1/microsoft.entityframeworkcore.design.7.0.1.nupkg.sha512",
+    "/Users/gauthiermiguet/.nuget/packages/microsoft.entityframeworkcore.design/7.0.10/microsoft.entityframeworkcore.design.7.0.10.nupkg.sha512",
     "/Users/gauthiermiguet/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.10/microsoft.entityframeworkcore.relational.7.0.10.nupkg.sha512",
     "/Users/gauthiermiguet/.nuget/packages/microsoft.entityframeworkcore.sqlite/7.0.10/microsoft.entityframeworkcore.sqlite.7.0.10.nupkg.sha512",
     "/Users/gauthiermiguet/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/7.0.10/microsoft.entityframeworkcore.sqlite.core.7.0.10.nupkg.sha512",

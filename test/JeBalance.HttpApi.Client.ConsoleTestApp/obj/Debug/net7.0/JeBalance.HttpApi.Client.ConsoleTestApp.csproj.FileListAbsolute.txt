@@ -145,3 +145,9 @@
 /Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.HttpApi.Client.ConsoleTestApp/obj/Debug/net7.0/JeBalance.HttpApi.Client.ConsoleTestApp.pdb
 /Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.HttpApi.Client.ConsoleTestApp/obj/Debug/net7.0/JeBalance.HttpApi.Client.ConsoleTestApp.genruntimeconfig.cache
 /Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.HttpApi.Client.ConsoleTestApp/obj/Debug/net7.0/ref/JeBalance.HttpApi.Client.ConsoleTestApp.dll
+/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.HttpApi.Client.ConsoleTestApp/bin/Debug/net7.0/Microsoft.Extensions.Diagnostics.dll
+/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.HttpApi.Client.ConsoleTestApp/bin/Debug/net7.0/Microsoft.Extensions.Diagnostics.Abstractions.dll
+/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.HttpApi.Client.ConsoleTestApp/bin/Debug/net7.0/System.Diagnostics.DiagnosticSource.dll
+/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.HttpApi.Client.ConsoleTestApp/bin/Debug/net7.0/System.Text.Encodings.Web.dll
+/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.HttpApi.Client.ConsoleTestApp/bin/Debug/net7.0/System.Text.Json.dll
+/Users/gauthiermiguet/ArchiN-tiers-Project/test/JeBalance.HttpApi.Client.ConsoleTestApp/bin/Debug/net7.0/runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll

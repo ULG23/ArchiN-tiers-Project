@@ -11,11 +11,11 @@
   <ItemGroup>
     <ProjectReference Include="..\..\src\JeBalance.EntityFrameworkCore\JeBalance.EntityFrameworkCore.csproj" />
     <ProjectReference Include="..\JeBalance.TestBase\JeBalance.TestBase.csproj" />
-    <PackageReference Include="Volo.Abp.EntityFrameworkCore.Sqlite" Version="7.4.1" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.Sqlite" Version="7.4.2" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.2.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
   </ItemGroup>
 
 </Project>

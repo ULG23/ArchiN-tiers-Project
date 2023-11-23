@@ -1341,15 +1341,15 @@
           }
         }
       },
-      "Volo.Abp.AuditLogging.EntityFrameworkCore/7.4.1": {
+      "Volo.Abp.AuditLogging.EntityFrameworkCore/7.4.2": {
         "dependencies": {
           "Volo.Abp.AuditLogging.Domain": "7.4.2",
           "Volo.Abp.EntityFrameworkCore": "7.4.2"
         },
         "runtime": {
           "lib/net7.0/Volo.Abp.AuditLogging.EntityFrameworkCore.dll": {
-            "assemblyVersion": "7.4.1.0",
-            "fileVersion": "7.4.1.0"
+            "assemblyVersion": "7.4.2.0",
+            "fileVersion": "7.4.2.0"
           }
         }
       },
@@ -1462,15 +1462,15 @@
           }
         }
       },
-      "Volo.Abp.BackgroundJobs.EntityFrameworkCore/7.4.1": {
+      "Volo.Abp.BackgroundJobs.EntityFrameworkCore/7.4.2": {
         "dependencies": {
           "Volo.Abp.BackgroundJobs.Domain": "7.4.2",
           "Volo.Abp.EntityFrameworkCore": "7.4.2"
         },
         "runtime": {
           "lib/net7.0/Volo.Abp.BackgroundJobs.EntityFrameworkCore.dll": {
-            "assemblyVersion": "7.4.1.0",
-            "fileVersion": "7.4.1.0"
+            "assemblyVersion": "7.4.2.0",
+            "fileVersion": "7.4.2.0"
           }
         }
       },
@@ -1734,15 +1734,15 @@
           }
         }
       },
-      "Volo.Abp.FeatureManagement.EntityFrameworkCore/7.4.1": {
+      "Volo.Abp.FeatureManagement.EntityFrameworkCore/7.4.2": {
         "dependencies": {
           "Volo.Abp.EntityFrameworkCore": "7.4.2",
           "Volo.Abp.FeatureManagement.Domain": "7.4.2"
         },
         "runtime": {
           "lib/net7.0/Volo.Abp.FeatureManagement.EntityFrameworkCore.dll": {
-            "assemblyVersion": "7.4.1.0",
-            "fileVersion": "7.4.1.0"
+            "assemblyVersion": "7.4.2.0",
+            "fileVersion": "7.4.2.0"
           }
         }
       },
@@ -1815,15 +1815,15 @@
           }
         }
       },
-      "Volo.Abp.Identity.EntityFrameworkCore/7.4.1": {
+      "Volo.Abp.Identity.EntityFrameworkCore/7.4.2": {
         "dependencies": {
           "Volo.Abp.Identity.Domain": "7.4.2",
-          "Volo.Abp.Users.EntityFrameworkCore": "7.4.1"
+          "Volo.Abp.Users.EntityFrameworkCore": "7.4.2"
         },
         "runtime": {
           "lib/net7.0/Volo.Abp.Identity.EntityFrameworkCore.dll": {
-            "assemblyVersion": "7.4.1.0",
-            "fileVersion": "7.4.1.0"
+            "assemblyVersion": "7.4.2.0",
+            "fileVersion": "7.4.2.0"
           }
         }
       },
@@ -1967,15 +1967,15 @@
           }
         }
       },
-      "Volo.Abp.OpenIddict.EntityFrameworkCore/7.4.1": {
+      "Volo.Abp.OpenIddict.EntityFrameworkCore/7.4.2": {
         "dependencies": {
           "Volo.Abp.EntityFrameworkCore": "7.4.2",
           "Volo.Abp.OpenIddict.Domain": "7.4.2"
         },
         "runtime": {
           "lib/net7.0/Volo.Abp.OpenIddict.EntityFrameworkCore.dll": {
-            "assemblyVersion": "7.4.1.0",
-            "fileVersion": "7.4.1.0"
+            "assemblyVersion": "7.4.2.0",
+            "fileVersion": "7.4.2.0"
           }
         }
       },
@@ -2044,15 +2044,15 @@
           }
         }
       },
-      "Volo.Abp.PermissionManagement.EntityFrameworkCore/7.4.1": {
+      "Volo.Abp.PermissionManagement.EntityFrameworkCore/7.4.2": {
         "dependencies": {
           "Volo.Abp.EntityFrameworkCore": "7.4.2",
           "Volo.Abp.PermissionManagement.Domain": "7.4.2"
         },
         "runtime": {
           "lib/net7.0/Volo.Abp.PermissionManagement.EntityFrameworkCore.dll": {
-            "assemblyVersion": "7.4.1.0",
-            "fileVersion": "7.4.1.0"
+            "assemblyVersion": "7.4.2.0",
+            "fileVersion": "7.4.2.0"
           }
         }
       },
@@ -2120,15 +2120,15 @@
           }
         }
       },
-      "Volo.Abp.SettingManagement.EntityFrameworkCore/7.4.1": {
+      "Volo.Abp.SettingManagement.EntityFrameworkCore/7.4.2": {
         "dependencies": {
           "Volo.Abp.EntityFrameworkCore": "7.4.2",
           "Volo.Abp.SettingManagement.Domain": "7.4.2"
         },
         "runtime": {
           "lib/net7.0/Volo.Abp.SettingManagement.EntityFrameworkCore.dll": {
-            "assemblyVersion": "7.4.1.0",
-            "fileVersion": "7.4.1.0"
+            "assemblyVersion": "7.4.2.0",
+            "fileVersion": "7.4.2.0"
           }
         }
       },
@@ -2198,15 +2198,15 @@
           }
         }
       },
-      "Volo.Abp.TenantManagement.EntityFrameworkCore/7.4.1": {
+      "Volo.Abp.TenantManagement.EntityFrameworkCore/7.4.2": {
         "dependencies": {
           "Volo.Abp.EntityFrameworkCore": "7.4.2",
           "Volo.Abp.TenantManagement.Domain": "7.4.2"
         },
         "runtime": {
           "lib/net7.0/Volo.Abp.TenantManagement.EntityFrameworkCore.dll": {
-            "assemblyVersion": "7.4.1.0",
-            "fileVersion": "7.4.1.0"
+            "assemblyVersion": "7.4.2.0",
+            "fileVersion": "7.4.2.0"
           }
         }
       },
@@ -2316,15 +2316,15 @@
           }
         }
       },
-      "Volo.Abp.Users.EntityFrameworkCore/7.4.1": {
+      "Volo.Abp.Users.EntityFrameworkCore/7.4.2": {
         "dependencies": {
           "Volo.Abp.EntityFrameworkCore": "7.4.2",
           "Volo.Abp.Users.Domain": "7.4.2"
         },
         "runtime": {
           "lib/net7.0/Volo.Abp.Users.EntityFrameworkCore.dll": {
-            "assemblyVersion": "7.4.1.0",
-            "fileVersion": "7.4.1.0"
+            "assemblyVersion": "7.4.2.0",
+            "fileVersion": "7.4.2.0"
           }
         }
       },
@@ -2417,15 +2417,15 @@
       "JeBalance.EntityFrameworkCore/1.0.0": {
         "dependencies": {
           "JeBalance.Domain": "1.0.0",
-          "Volo.Abp.AuditLogging.EntityFrameworkCore": "7.4.1",
-          "Volo.Abp.BackgroundJobs.EntityFrameworkCore": "7.4.1",
+          "Volo.Abp.AuditLogging.EntityFrameworkCore": "7.4.2",
+          "Volo.Abp.BackgroundJobs.EntityFrameworkCore": "7.4.2",
           "Volo.Abp.EntityFrameworkCore.Sqlite": "7.4.2",
-          "Volo.Abp.FeatureManagement.EntityFrameworkCore": "7.4.1",
-          "Volo.Abp.Identity.EntityFrameworkCore": "7.4.1",
-          "Volo.Abp.OpenIddict.EntityFrameworkCore": "7.4.1",
-          "Volo.Abp.PermissionManagement.EntityFrameworkCore": "7.4.1",
-          "Volo.Abp.SettingManagement.EntityFrameworkCore": "7.4.1",
-          "Volo.Abp.TenantManagement.EntityFrameworkCore": "7.4.1"
+          "Volo.Abp.FeatureManagement.EntityFrameworkCore": "7.4.2",
+          "Volo.Abp.Identity.EntityFrameworkCore": "7.4.2",
+          "Volo.Abp.OpenIddict.EntityFrameworkCore": "7.4.2",
+          "Volo.Abp.PermissionManagement.EntityFrameworkCore": "7.4.2",
+          "Volo.Abp.SettingManagement.EntityFrameworkCore": "7.4.2",
+          "Volo.Abp.TenantManagement.EntityFrameworkCore": "7.4.2"
         },
         "runtime": {
           "JeBalance.EntityFrameworkCore.dll": {}
@@ -3244,12 +3244,12 @@
       "path": "volo.abp.auditlogging.domain.shared/7.4.2",
       "hashPath": "volo.abp.auditlogging.domain.shared.7.4.2.nupkg.sha512"
     },
-    "Volo.Abp.AuditLogging.EntityFrameworkCore/7.4.1": {
+    "Volo.Abp.AuditLogging.EntityFrameworkCore/7.4.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-oTp8KK7EIa/y0VVqmWxp0Br6TaTzllxWfmAIqrV8uXGZG5/49bswmM9CDDTMF4tlG5k9aJlLWzQCB0lRvKu2aw==",
-      "path": "volo.abp.auditlogging.entityframeworkcore/7.4.1",
-      "hashPath": "volo.abp.auditlogging.entityframeworkcore.7.4.1.nupkg.sha512"
+      "sha512": "sha512-X1NPicgOu2YXN0q5d+PQkaISyts4bTqojYB5uFVRDs+/TYxKp9623WatmlrOyPHTtl9M70OblJPXISlVMDvl5A==",
+      "path": "volo.abp.auditlogging.entityframeworkcore/7.4.2",
+      "hashPath": "volo.abp.auditlogging.entityframeworkcore.7.4.2.nupkg.sha512"
     },
     "Volo.Abp.Authorization/7.4.2": {
       "type": "package",
@@ -3307,12 +3307,12 @@
       "path": "volo.abp.backgroundjobs.domain.shared/7.4.2",
       "hashPath": "volo.abp.backgroundjobs.domain.shared.7.4.2.nupkg.sha512"
     },
-    "Volo.Abp.BackgroundJobs.EntityFrameworkCore/7.4.1": {
+    "Volo.Abp.BackgroundJobs.EntityFrameworkCore/7.4.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+JbnY+e0jkZZvnW7PJW8LgEx0yTkMEFF822oPz6kGxmcLWYbTDptD2GapgtPfPB2faG9EqOyKvjRvjK1KCf9Nw==",
-      "path": "volo.abp.backgroundjobs.entityframeworkcore/7.4.1",
-      "hashPath": "volo.abp.backgroundjobs.entityframeworkcore.7.4.1.nupkg.sha512"
+      "sha512": "sha512-ODrnW7QX15RefarURKy3FNV2FgJbCyulgm5ZvSDR0AtW1geHsHWewUIqovbdAqBub5y6+LL+xPyHgwmPO/qMDQ==",
+      "path": "volo.abp.backgroundjobs.entityframeworkcore/7.4.2",
+      "hashPath": "volo.abp.backgroundjobs.entityframeworkcore.7.4.2.nupkg.sha512"
     },
     "Volo.Abp.BackgroundWorkers/7.4.2": {
       "type": "package",
@@ -3440,12 +3440,12 @@
       "path": "volo.abp.featuremanagement.domain.shared/7.4.2",
       "hashPath": "volo.abp.featuremanagement.domain.shared.7.4.2.nupkg.sha512"
     },
-    "Volo.Abp.FeatureManagement.EntityFrameworkCore/7.4.1": {
+    "Volo.Abp.FeatureManagement.EntityFrameworkCore/7.4.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-6Ewdtj6Sl/gxLnwppqmFuYyCFU9QdVXUTkD/7IuvFe86Bmmps+0ezROseWCZ8qSIKksFrWWyaZMDsMu5fuMAmQ==",
-      "path": "volo.abp.featuremanagement.entityframeworkcore/7.4.1",
-      "hashPath": "volo.abp.featuremanagement.entityframeworkcore.7.4.1.nupkg.sha512"
+      "sha512": "sha512-t1vvSa/QAjirdHeJuVPMTw1KLeuBcz9/Jtrkll4OeQtk3THl/zls135xQKY2L9OXpSfaJAWJ80UtRVf/iRhstw==",
+      "path": "volo.abp.featuremanagement.entityframeworkcore/7.4.2",
+      "hashPath": "volo.abp.featuremanagement.entityframeworkcore.7.4.2.nupkg.sha512"
     },
     "Volo.Abp.Features/7.4.2": {
       "type": "package",
@@ -3482,12 +3482,12 @@
       "path": "volo.abp.identity.domain.shared/7.4.2",
       "hashPath": "volo.abp.identity.domain.shared.7.4.2.nupkg.sha512"
     },
-    "Volo.Abp.Identity.EntityFrameworkCore/7.4.1": {
+    "Volo.Abp.Identity.EntityFrameworkCore/7.4.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-vdsSmA5CH3FJBEoqP6/be6EoAxW52dse88X4uH7a7KsCZvO0aan2/Q8HC5C8dT19dXPpxiBMn/nagfssw4LeUg==",
-      "path": "volo.abp.identity.entityframeworkcore/7.4.1",
-      "hashPath": "volo.abp.identity.entityframeworkcore.7.4.1.nupkg.sha512"
+      "sha512": "sha512-frNiUrrDjYrcl3AI6MfVajGcmWmzxO533IPXjbZwHbfFeRtBX39fH/m1U+nR4kuoVtxNqjapgU8DrY3sLXqDew==",
+      "path": "volo.abp.identity.entityframeworkcore/7.4.2",
+      "hashPath": "volo.abp.identity.entityframeworkcore.7.4.2.nupkg.sha512"
     },
     "Volo.Abp.Json/7.4.2": {
       "type": "package",
@@ -3566,12 +3566,12 @@
       "path": "volo.abp.openiddict.domain.shared/7.4.2",
       "hashPath": "volo.abp.openiddict.domain.shared.7.4.2.nupkg.sha512"
     },
-    "Volo.Abp.OpenIddict.EntityFrameworkCore/7.4.1": {
+    "Volo.Abp.OpenIddict.EntityFrameworkCore/7.4.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-tgrDkn1VUGzCbvqQ6/66Zi7Rc06/chkaHzsTmRCzq8/OCmp1tQal0zhVspPHzIi7xsjURqOZUXX0IbjBlVy1fA==",
-      "path": "volo.abp.openiddict.entityframeworkcore/7.4.1",
-      "hashPath": "volo.abp.openiddict.entityframeworkcore.7.4.1.nupkg.sha512"
+      "sha512": "sha512-Nx5pM9PEwouKLSxk1waQ2CfAAGuqG7/s7zaHLoMJ/gCEGSXotReVyA+tOVe5LWG8V5eGQrLAmNkpPMLRRw4hpQ==",
+      "path": "volo.abp.openiddict.entityframeworkcore/7.4.2",
+      "hashPath": "volo.abp.openiddict.entityframeworkcore.7.4.2.nupkg.sha512"
     },
     "Volo.Abp.PermissionManagement.Application.Contracts/7.4.2": {
       "type": "package",
@@ -3608,12 +3608,12 @@
       "path": "volo.abp.permissionmanagement.domain.shared/7.4.2",
       "hashPath": "volo.abp.permissionmanagement.domain.shared.7.4.2.nupkg.sha512"
     },
-    "Volo.Abp.PermissionManagement.EntityFrameworkCore/7.4.1": {
+    "Volo.Abp.PermissionManagement.EntityFrameworkCore/7.4.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-orKYU8DnhOXNilkMyz0g8mOwjJ7P6KK52YV1869CysW36zzgqq3a/n/1M2WWQdifqBv7L3fpfaXxh0odstv7kw==",
-      "path": "volo.abp.permissionmanagement.entityframeworkcore/7.4.1",
-      "hashPath": "volo.abp.permissionmanagement.entityframeworkcore.7.4.1.nupkg.sha512"
+      "sha512": "sha512-L7YldxJYktXtXS/1fRpFNFD8YXg9gzQ8IXFEzy+GGS19jKjjTAu+bSabO7Rp/4zWas9xRp01D81hD2Ui41yu7g==",
+      "path": "volo.abp.permissionmanagement.entityframeworkcore/7.4.2",
+      "hashPath": "volo.abp.permissionmanagement.entityframeworkcore.7.4.2.nupkg.sha512"
     },
     "Volo.Abp.Security/7.4.2": {
       "type": "package",
@@ -3650,12 +3650,12 @@
       "path": "volo.abp.settingmanagement.domain.shared/7.4.2",
       "hashPath": "volo.abp.settingmanagement.domain.shared.7.4.2.nupkg.sha512"
     },
-    "Volo.Abp.SettingManagement.EntityFrameworkCore/7.4.1": {
+    "Volo.Abp.SettingManagement.EntityFrameworkCore/7.4.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-9h8NmufC/G4fDuxG6iBCAfOd1pPa1xTvirdUOYZYVYjMmrfjHFCLr+rAQuiHGFtrCYEPQYw/bW6JkgoosXG9cQ==",
-      "path": "volo.abp.settingmanagement.entityframeworkcore/7.4.1",
-      "hashPath": "volo.abp.settingmanagement.entityframeworkcore.7.4.1.nupkg.sha512"
+      "sha512": "sha512-2gE17vMNyBux0TRU97bti+/bo/KluBImwxiNa9xHFYSA5o39CZeJ//fzYyK+8q1NCB1DO1FINi71ckFl4XZoDg==",
+      "path": "volo.abp.settingmanagement.entityframeworkcore/7.4.2",
+      "hashPath": "volo.abp.settingmanagement.entityframeworkcore.7.4.2.nupkg.sha512"
     },
     "Volo.Abp.Settings/7.4.2": {
       "type": "package",
@@ -3692,12 +3692,12 @@
       "path": "volo.abp.tenantmanagement.domain.shared/7.4.2",
       "hashPath": "volo.abp.tenantmanagement.domain.shared.7.4.2.nupkg.sha512"
     },
-    "Volo.Abp.TenantManagement.EntityFrameworkCore/7.4.1": {
+    "Volo.Abp.TenantManagement.EntityFrameworkCore/7.4.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-qUCoXQfLI/LEIXvJq2gBAibnzHzzDhyIaXMdDdNj0s/ADCBzojH5JO5q40h1bsByiq27P//8fckI+dEA8r5Pzw==",
-      "path": "volo.abp.tenantmanagement.entityframeworkcore/7.4.1",
-      "hashPath": "volo.abp.tenantmanagement.entityframeworkcore.7.4.1.nupkg.sha512"
+      "sha512": "sha512-JHtaxWPleR2M06P3yYmr+Wi/gw1yxCQMCdu3ZdWBUa41m86i/AmCF4b+/W9arjmVbyWUXxWL1HH7/P5DlXKXaQ==",
+      "path": "volo.abp.tenantmanagement.entityframeworkcore/7.4.2",
+      "hashPath": "volo.abp.tenantmanagement.entityframeworkcore.7.4.2.nupkg.sha512"
     },
     "Volo.Abp.TextTemplating/7.4.2": {
       "type": "package",
@@ -3762,12 +3762,12 @@
       "path": "volo.abp.users.domain.shared/7.4.2",
       "hashPath": "volo.abp.users.domain.shared.7.4.2.nupkg.sha512"
     },
-    "Volo.Abp.Users.EntityFrameworkCore/7.4.1": {
+    "Volo.Abp.Users.EntityFrameworkCore/7.4.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-WQPGx2KwAZBZasDmmGaAHHio8Asd3Vstamrxp6X9nHaR4uLEj0kfkhRPqr/R9o2bDN2r14kBgQde+6QiwonhmQ==",
-      "path": "volo.abp.users.entityframeworkcore/7.4.1",
-      "hashPath": "volo.abp.users.entityframeworkcore.7.4.1.nupkg.sha512"
+      "sha512": "sha512-ckip/MxTf504CS/Y+xYJnpe7yEwTP76rBVZ5sqGH7TXvJvK+Sedlgy3Y/ZIKfk3a+dY+oVe36mLKU18eFbnfxw==",
+      "path": "volo.abp.users.entityframeworkcore/7.4.2",
+      "hashPath": "volo.abp.users.entityframeworkcore.7.4.2.nupkg.sha512"
     },
     "Volo.Abp.Validation/7.4.2": {
       "type": "package",
