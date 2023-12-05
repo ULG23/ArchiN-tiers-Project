@@ -1,5 +1,11 @@
 # JeBalance
 
+## Pour faire une mise à jour de la base avec EFCore il faut appliquer la commande 
+$ dotnet ef database update\
+Cependant il faut pour cela avoir la commande dotnet ef dans son environnement\
+Sur mac M2 j'ai eu un peu de mal donc voici la commande qui permet d'utiliser dotnet ef dans la session courante :\
+$ export PATH="$PATH:/Users/gauthiermiguet/.dotnet/tools"
+
 ## About this solution
 
 This is a layered startup solution based on [Domain Driven Design (DDD)](https://docs.abp.io/en/abp/latest/Domain-Driven-Design) practises. All the fundamental ABP modules are already installed. 
