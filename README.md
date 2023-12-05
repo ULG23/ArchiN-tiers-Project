@@ -1,9 +1,9 @@
 # JeBalance
 
 ## Pour faire une mise à jour de la base avec EFCore il faut appliquer la commande 
-$ dotnet ef database update
-Cependant il faut pour cela avoir la commande dotnet ef dans son environnement 
-Sur mac M2 j'ai eu un peu de mal donc voici la commande qui permet d'utiliser dotnet ef dans la session courante :
+$ dotnet ef database update__
+Cependant il faut pour cela avoir la commande dotnet ef dans son environnement__
+Sur mac M2 j'ai eu un peu de mal donc voici la commande qui permet d'utiliser dotnet ef dans la session courante :__
 $ export PATH="$PATH:/Users/gauthiermiguet/.dotnet/tools"
 
 ## About this solution
