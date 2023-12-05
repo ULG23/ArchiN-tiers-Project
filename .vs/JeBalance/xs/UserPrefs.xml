@@ -1,11 +1,7 @@
 ﻿<Properties StartupConfiguration="{068855E8-9240-4F1A-910B-CF825794513B}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Application.Contracts/DTOs/AdresseDTO.cs" relfile="src/JeBalance.Application.Contracts/DTOs/AdresseDTO.cs" line="1" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/JeBalance.EntityFrameworkCore/JeBalance.EntityFrameworkCore.csproj">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/JeBalance.Application/Services/DenonciationAppService.cs">
     <Files>
       <File FileName="src/JeBalance.Application/JeBalanceAppService.cs" />
       <File FileName="src/JeBalance.Application/JeBalanceApplicationModule.cs" />
@@ -28,43 +24,58 @@
       <File FileName="src/JeBalance.Domain/Entities/Reponse.cs" />
       <File FileName="src/JeBalance.Domain/Entities/Confirmation.cs" />
       <File FileName="src/JeBalance.Domain/Entities/Administrateur.cs" />
-      <File FileName="src/JeBalance.Application/Services/DenonciationAppService.cs" />
+      <File FileName="src/JeBalance.Application/Services/DenonciationAppService.cs" Line="10" Column="14" />
       <File FileName="src/JeBalance.Application/Services/IDenonciationAppService.cs" />
       <File FileName="src/JeBalance.Application.Contracts/DTOs/DenonciationDTO.cs" />
       <File FileName="test/JeBalance.Domain.Tests/JeBalance.Domain.Tests.csproj" />
       <File FileName="test/JeBalance.Application.Tests/JeBalance.Application.Tests.csproj" />
-      <File FileName="test/JeBalance.Web.Tests/JeBalance.Web.Tests.csproj" Line="27" Column="15" />
-      <File FileName="src/JeBalance.EntityFrameworkCore/JeBalance.EntityFrameworkCore.csproj" Line="16" Column="1" />
+      <File FileName="test/JeBalance.Web.Tests/JeBalance.Web.Tests.csproj" />
+      <File FileName="src/JeBalance.EntityFrameworkCore/JeBalance.EntityFrameworkCore.csproj" />
+      <File FileName="test/JeBalance.HttpApi.Client.ConsoleTestApp/appsettings.json" />
+      <File FileName="test/JeBalance.HttpApi.Client.ConsoleTestApp/appsettings.secrets.json" />
+      <File FileName="src/JeBalance.Web/appsettings.json" />
+      <File FileName="src/JeBalance.Web/appsettings.Development.json" />
+      <File FileName="src/JeBalance.Web/appsettings.secrets.json" />
+      <File FileName="src/JeBalance.DbMigrator/appsettings.json" />
+      <File FileName="src/JeBalance.EntityFrameworkCore/Migrations/JeBalanceDbContextModelSnapshot.cs" />
+      <File FileName="src/JeBalance.EntityFrameworkCore/Migrations/20231123135135_InitialCreate.cs" Line="300" Column="7" />
       <File FileName="jebalance-gouv-fr.md" Line="101" Column="7" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="JeBalance">
+          <Node name="JeBalance" expanded="True">
             <Node name="src" expanded="True">
-              <Node name="JeBalance.Application" expanded="True">
+              <Node name="JeBalance.Application" selected="True">
                 <Node name="Services" expanded="True" />
               </Node>
               <Node name="JeBalance.Application.Contracts" expanded="True">
                 <Node name="DTOs" expanded="True" />
                 <Node name="Permissions" expanded="True" />
               </Node>
+              <Node name="JeBalance.DbMigrator" expanded="True" />
               <Node name="JeBalance.Domain" expanded="True">
                 <Node name="Entities" expanded="True" />
                 <Node name="Properties" expanded="True" />
               </Node>
               <Node name="JeBalance.EntityFrameworkCore" expanded="True">
                 <Node name="EntityFrameworkCore" expanded="True" />
+                <Node name="Migrations" expanded="True" />
               </Node>
-              <Node name="JeBalance.Web" selected="True" />
+              <Node name="JeBalance.Web" expanded="True">
+                <Node name="appsettings.json" expanded="True" />
+              </Node>
             </Node>
-            <Node name="test" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Application.Contracts/DTOs/AdresseDTO.cs" relfile="src/JeBalance.Application.Contracts/DTOs/AdresseDTO.cs" line="1" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.src.JeBalance.Web PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

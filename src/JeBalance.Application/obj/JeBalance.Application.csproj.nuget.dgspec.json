@@ -254,6 +254,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Volo.Abp.Account.Application": {
               "target": "Package",
               "version": "[7.4.2, )"
