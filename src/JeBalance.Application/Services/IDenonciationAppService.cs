@@ -5,6 +5,6 @@ namespace JeBalance.Services
 {
     public interface IDenonciationAppService
     {
-        public Guid CreateDenonciation(DenonciationDTO _denonciation);
+        public Guid PostCreateDenonciation(DenonciationDTO _denonciation);
     }
 }
