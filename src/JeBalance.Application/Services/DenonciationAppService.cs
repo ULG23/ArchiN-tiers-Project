@@ -7,14 +7,19 @@ using Volo.Abp.DependencyInjection;
 namespace JeBalance.Services
 {
     public class DenonciationAppService : ApplicationService, IDenonciationAppService, ITransientDependency
-	{
-
-
-        [HttpPost]
+    {
         public Guid PostCreateDenonciation(DenonciationDTO _denonciation)
         {
 
             return new Guid();
+        }
+
+        public DenonciationDTO GetDenonciation(Guid id)
+        {
+            return new DenonciationDTO
+            {
+
+            };
         }
     }
 }
