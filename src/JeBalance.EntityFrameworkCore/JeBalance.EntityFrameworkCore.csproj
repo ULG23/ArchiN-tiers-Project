@@ -34,8 +34,10 @@
 
   <ItemGroup>
     <None Remove="Migrations\" />
+    <None Remove="Denonciation\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Migrations\" />
+    <Folder Include="Denonciation\" />
   </ItemGroup>
 </Project>

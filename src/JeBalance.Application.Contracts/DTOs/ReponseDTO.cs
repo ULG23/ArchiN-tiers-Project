@@ -2,7 +2,7 @@
 {
     public class ReponseDTO
     {
-        public ConfirmationDTO Confirmation { get; set; }
+        public ConfirmationDTO? Confirmation { get; set; }
 
     }
 }

@@ -1,0 +1,22 @@
+{
+  "informateur": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "suspect": {
+    "accuse": {
+      "prenom": "First Name",
+      "nom": "Last Name",
+      "adresse": {
+        "numero": 5,
+        "nomdeVoie": "rue de la boiserie",
+        "codePostal": 68100,
+        "nomdeCommune": "Mulhouse"
+      }
+    }
+  },
+  "delit": 0,
+  "paysEvasion": "Caïman",
+  "reponse": {
+    "confirmation": {
+      "retribution": 0
+    }
+  }
+}

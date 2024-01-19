@@ -11,6 +11,7 @@
   <ItemGroup>
     <ProjectReference Include="..\JeBalance.Domain\JeBalance.Domain.csproj" />
     <ProjectReference Include="..\JeBalance.Application.Contracts\JeBalance.Application.Contracts.csproj" />
+    <ProjectReference Include="..\JeBalance.EntityFrameworkCore\JeBalance.EntityFrameworkCore.csproj" />
   </ItemGroup>
 
   <ItemGroup>

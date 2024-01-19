@@ -3,6 +3,6 @@
     public class ConfirmationDTO
     {
 
-        public long Retribution { get; set; }
+        public long? Retribution { get; set; }
     }
 }

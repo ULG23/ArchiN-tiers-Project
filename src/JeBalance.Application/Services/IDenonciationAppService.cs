@@ -1,12 +1,13 @@
 ﻿using System;
+using System.Threading.Tasks;
 using JeBalance.DTOs;
 
 namespace JeBalance.Services
 {
     public interface IDenonciationAppService
     {
-        public Guid PostCreateDenonciation(DenonciationDTO _denonciation);
+        public Task<Guid?> PostCreateDenonciationAsync(DenonciationDTO _denonciation);
 
-        public DenonciationDTO GetDenonciation(Guid _denonciationId);
+        public DenonciationDTO Get(Guid _denonciationId);
     }
 }

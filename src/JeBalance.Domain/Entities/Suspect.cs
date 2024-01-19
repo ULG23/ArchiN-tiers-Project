@@ -8,6 +8,6 @@ namespace JeBalance.Entities
     {
         public required Personne Accuse { get; set; }
 
-        public required Denonciation Denonciation { get; set; }
+        public Denonciation? Denonciation { get; set; }
     }
 }
