@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using JeBalance.Entities;
+using System.Reflection.Emit;
+using Microsoft.EntityFrameworkCore;
 using Volo.Abp.AuditLogging.EntityFrameworkCore;
 using Volo.Abp.BackgroundJobs.EntityFrameworkCore;
 using Volo.Abp.Data;
@@ -73,13 +75,17 @@ public class JeBalanceDbContext :
         builder.ConfigureFeatureManagement();
         builder.ConfigureTenantManagement();
 
-        /* Configure your own tables/entities inside here */
-
-        //builder.Entity<YourEntity>(b =>
-        //{
-        //    b.ToTable(JeBalanceConsts.DbTablePrefix + "YourEntities", JeBalanceConsts.DbSchema);
-        //    b.ConfigureByConvention(); //auto configure for the base class props
-        //    //...
-        //});
+        builder.Entity<Administrateur>();
+        builder.Entity<Adresse>();
+        builder.Entity<Confirmation>();
+        builder.Entity<Entities.Denonciation>()
+       .HasOne(d => d.Suspect)
+       .WithOne(s => s.Denonciation)
+       .HasForeignKey<Suspect>(s => s.Id);
+        builder.Entity<Informateur>();
+        builder.Entity<Personne>()
+            .HasKey(p => p.Id);
+        builder.Entity<Reponse>();
+        builder.Entity<Suspect>();
     }
 }

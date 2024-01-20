@@ -1,7 +1,9 @@
 ﻿using System;
+using Volo.Abp.Domain.Entities;
+
 namespace JeBalance.Entities
 {
-	public class Personne
+	public class Personne : Entity<Guid>
 	{
 		public required string Prenom { get; set; }
 

@@ -12,13 +12,13 @@ namespace JeBalance.Denonciation
 		{
 		}
 
-        public async Task RegisterDenonciationAsync(Entities.Denonciation denonciation)
+        public async Task<Guid> RegisterDenonciationAsync(Entities.Denonciation denonciation)
         {
             var dbSet = await GetDbSetAsync().ConfigureAwait(false);
 
-            dbSet.AddAsync(denonciation).ConfigureAwait(false);
+            await dbSet.AddAsync(denonciation).ConfigureAwait(false);
 
-
+            return denonciation.Id;
 
         }
     }

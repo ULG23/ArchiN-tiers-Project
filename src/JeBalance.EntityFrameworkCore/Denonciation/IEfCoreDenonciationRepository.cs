@@ -5,6 +5,6 @@ namespace JeBalance.Denonciation
 {
     public interface IEfCoreDenonciationRepository
     {
-        public Task RegisterDenonciationAsync(Entities.Denonciation denonciation);
+        public Task<Guid> RegisterDenonciationAsync(Entities.Denonciation denonciation);
     }
 }

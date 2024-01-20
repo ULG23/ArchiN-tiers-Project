@@ -42,9 +42,9 @@ namespace JeBalance.Services
                 Delit = (Enums.eDelit)_denonciation.Delit
             };
 
-            await efCoreDenonciationRepository.RegisterDenonciationAsync(denonciationToRegistrer).ConfigureAwait(false);
+            var denonciatonId = await efCoreDenonciationRepository.RegisterDenonciationAsync(denonciationToRegistrer).ConfigureAwait(false);
 
-            return denonciationToRegistrer.Id;
+            return denonciatonId;
             
         }
 

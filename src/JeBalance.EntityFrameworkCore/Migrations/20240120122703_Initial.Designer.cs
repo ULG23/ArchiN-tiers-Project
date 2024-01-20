@@ -12,8 +12,8 @@ using Volo.Abp.EntityFrameworkCore;
 namespace JeBalance.Migrations
 {
     [DbContext(typeof(JeBalanceDbContext))]
-    [Migration("20231123135135_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20240120122703_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

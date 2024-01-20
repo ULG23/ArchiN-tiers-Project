@@ -1,2 +1,4 @@
 src/JeBalance.Web/Logs/logs.txt
 .vs/JeBalance/xs/project-cache
+.vs/JeBalance/xs
+src/JeBalance.DbMigrator/bin/Debug/net7.0/Logs

@@ -1,6 +1,9 @@
-﻿namespace JeBalance.Entities
+﻿using System;
+using Volo.Abp.Domain.Entities;
+
+namespace JeBalance.Entities
 {
-    public class Adresse
+    public class Adresse : Entity<Guid>
     {
         public required int Numero { get; set; }
 
