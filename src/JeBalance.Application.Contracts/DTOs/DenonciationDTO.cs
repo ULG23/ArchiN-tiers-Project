@@ -1,9 +1,10 @@
 ﻿using System;
 using JeBalance.Enums;
+using Volo.Abp.Auditing;
 
 namespace JeBalance.DTOs
 {
-    public class DenonciationDTO
+    public class DenonciationDTO : IHasCreationTime, IHasModificationTime
     {
         public Guid? Id { get; set; }
         public Guid? Informateur { get; set; }
@@ -15,6 +16,12 @@ namespace JeBalance.DTOs
         public string? PaysEvasion { get; set; }
 
         public ReponseDTO? Reponse { get; set; }
+
+        // Permet d'avoir l'horodatage de la création de l'objet
+        public DateTime CreationTime { get; set; }
+
+        // Permet d'avoir l'horodatage de la dernière modification de la dénonciation
+        public DateTime? LastModificationTime { get; set; }
     }
 }
 

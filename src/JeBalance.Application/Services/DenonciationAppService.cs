@@ -1,10 +1,14 @@
 ﻿using System;
+using System.Net.Mail;
 using System.Threading.Tasks;
 using JeBalance.Denonciation;
 using JeBalance.DTOs;
+using JeBalance.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Volo.Abp.Application.Services;
 using Volo.Abp.DependencyInjection;
+using Volo.Abp.Domain.Repositories;
+using Volo.Abp.ObjectMapping;
 
 namespace JeBalance.Services
 {
@@ -19,41 +23,18 @@ namespace JeBalance.Services
 
         public async Task<Guid?> PostCreateDenonciationAsync(DenonciationDTO _denonciation)
         {
-            var denonciationToRegistrer = new Entities.Denonciation
-            {
-                Informateur = _denonciation.Informateur,
-                Suspect = new Entities.Suspect
-                {
-                    Accuse = new Entities.Personne
-                    {
-                        Nom = _denonciation.Suspect.Accuse.Nom,
-                        Prenom = _denonciation.Suspect.Accuse.Prenom,
-                        Adresse = new Entities.Adresse
-                        {
-                            NomdeCommune = _denonciation.Suspect.Accuse.Adresse.NomdeCommune,
-                            NomdeVoie = _denonciation.Suspect.Accuse.Adresse.NomdeVoie,
-                            Numero = _denonciation.Suspect.Accuse.Adresse.Numero,
-                            CodePostal = _denonciation.Suspect.Accuse.Adresse.CodePostal
-                            
-                        }
-                    }
-                },
-                PaysEvasion = _denonciation.PaysEvasion,
-                Delit = (Enums.eDelit)_denonciation.Delit
-            };
+            var denonciationToRegistrer = ObjectMapper.Map< DenonciationDTO, Entities.Denonciation > (_denonciation);
 
-            var denonciatonId = await efCoreDenonciationRepository.RegisterDenonciationAsync(denonciationToRegistrer).ConfigureAwait(false);
 
-            return denonciatonId;
+            return  await efCoreDenonciationRepository.RegisterDenonciationAsync(denonciationToRegistrer).ConfigureAwait(false);
             
         }
 
-        public DenonciationDTO Get(Guid id)
+        public async Task<DenonciationDTO> GetAsync(Guid id)
         {
-            return new DenonciationDTO
-            {
-                Id = new Guid()
-            };
+            var denonciation = await efCoreDenonciationRepository.GetAsync(id).ConfigureAwait(false);
+
+            return ObjectMapper.Map<Entities.Denonciation, DenonciationDTO>(denonciation);
         }
     }
 }

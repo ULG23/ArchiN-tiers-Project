@@ -8,6 +8,6 @@ namespace JeBalance.Services
     {
         public Task<Guid?> PostCreateDenonciationAsync(DenonciationDTO _denonciation);
 
-        public DenonciationDTO Get(Guid _denonciationId);
+        public Task<DenonciationDTO> GetAsync(Guid _denonciationId);
     }
 }

@@ -52,6 +52,15 @@ public class JeBalanceDbContext :
     public DbSet<Tenant> Tenants { get; set; }
     public DbSet<TenantConnectionString> TenantConnectionStrings { get; set; }
 
+    public DbSet<Personne> Personnes { get; set; }
+    public DbSet<Adresse> Adresses { get; set; }
+    public DbSet<Confirmation> Confirmations { get; set; }
+    public DbSet<Entities.Denonciation> Denonciations { get; set; }
+    public DbSet<Informateur> Informateurs { get; set; }
+    public DbSet<Reponse> Reponses { get; set; }
+    public DbSet<Suspect> Suspects { get; set; }
+
+
     #endregion
 
     public JeBalanceDbContext(DbContextOptions<JeBalanceDbContext> options)

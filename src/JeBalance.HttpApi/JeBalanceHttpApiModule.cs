@@ -8,6 +8,7 @@ using Volo.Abp.Modularity;
 using Volo.Abp.PermissionManagement.HttpApi;
 using Volo.Abp.SettingManagement;
 using Volo.Abp.TenantManagement;
+using Volo.Abp.AspNetCore.ExceptionHandling;
 
 namespace JeBalance;
 
@@ -25,6 +26,11 @@ public class JeBalanceHttpApiModule : AbpModule
     public override void ConfigureServices(ServiceConfigurationContext context)
     {
         ConfigureLocalization();
+
+        Configure<AbpExceptionHandlingOptions>(options =>
+        {
+            options.SendExceptionsDetailsToClients = true;
+        });
     }
 
     private void ConfigureLocalization()
@@ -38,4 +44,6 @@ public class JeBalanceHttpApiModule : AbpModule
                 );
         });
     }
+
+
 }
