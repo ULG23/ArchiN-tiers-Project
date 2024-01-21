@@ -4,10 +4,18 @@ using Volo.Abp.Domain.Entities;
 
 namespace JeBalance.Entities
 {
-    public class Suspect : Entity<Guid>
+    public class Suspect : Personne
     {
-        public required Personne Accuse { get; set; }
+        //public required Personne Accuse { get; set; }
 
-        public Denonciation? Denonciation { get; set; }
+        //public required Denonciation Denonciation { get; set; }
+
+        public Suspect(Guid id) : base(id)
+        {
+
+        }
+
+        public Suspect()
+        { }
     }
 }

@@ -4,9 +4,15 @@ using Volo.Abp.Domain.Entities;
 
 namespace JeBalance.Entities
 {
-    public class Informateur : Entity<Guid>
-	{
-        public required List<Denonciation> Denonciations { get; set; }
-	}
+    public class Informateur : Personne
+    {
+        //public List<Denonciation>? Denonciations { get; set; }
+        public Informateur(Guid id) : base(id)
+        {
+        }
+
+        public Informateur()
+        { }
+    }
 }
 

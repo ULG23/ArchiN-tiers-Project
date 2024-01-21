@@ -6,7 +6,7 @@ namespace JeBalance.Entities
 {
     public class Reponse : Entity<Guid>, IHasCreationTime, IHasModificationTime
     {
-        public Confirmation Confirmation { get; set; }
+        public Confirmation? Confirmation { get; set; }
 
         // Permet de déterminer si la dénonciation est rejettée ou pas
         public required bool Rejected { get; set; }
@@ -17,5 +17,12 @@ namespace JeBalance.Entities
         // Permet d'avoir l'horodatage de la dernière modification de la réponse
         public DateTime? LastModificationTime { get; set; }
 
+        public Reponse(Guid id) : base(id)
+        {
+
+        }
+
+        public Reponse()
+        { }
     }
 }

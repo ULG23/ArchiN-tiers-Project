@@ -14,13 +14,30 @@ namespace JeBalance.Denonciation
 		public EfCoreDenonciationRepository(IDbContextProvider<JeBalanceDbContext> dbContextProvider) : base(dbContextProvider)
 		{
 		}
+
+        public async Task<Entities.Denonciation> GetDenonciationAsync(Guid id)
+        {
+            var context = await GetDbContextAsync().ConfigureAwait(false);
+
+            var denonciation = await context.Denonciations
+                                    .Include(p => p.Informateur)
+                                     .Include(p => p.Suspect)
+                                     .SingleOrDefaultAsync(d => d.Id == id).ConfigureAwait(false);
+            if(denonciation == null)
+            {
+                throw new UserFriendlyException("Désolé, aucune dénonciation ne correspond à cet Id");
+            }
+
+            return denonciation;
+        }
+
         public async Task<Guid> RegisterDenonciationAsync(Entities.Denonciation denonciation)
         {
             var context = await GetDbContextAsync().ConfigureAwait(false);
 
             // Vérification de l'informateur ne soit pas un Calominateur, sinon message d'erreur
-            var informateur = await context.Personnes.SingleOrDefaultAsync(p => p.Id == denonciation.Informateur).ConfigureAwait(false);
-            if (informateur != null && informateur.Calominateur)
+            var informateur = await context.Personnes.SingleOrDefaultAsync(p => p.Id == denonciation.Informateur.Id).ConfigureAwait(false);
+            if (informateur != null && informateur.Calomniateur)
             {
                 throw new UserFriendlyException("Vous êtes un vilain Calominateur, vous ne pouvez plus délatter !");
             }
@@ -32,7 +49,7 @@ namespace JeBalance.Denonciation
             // Si c'est le cas on met alors à jour l'informateur pour le déclarer comme Calominateur
             if (numberOfRejectedDelation >= 3 && informateur!=null)
             {
-                informateur.Calominateur = true;
+                informateur.Calomniateur = true;
                 context.Update(informateur);
                 await context.SaveChangesAsync().ConfigureAwait(false);
 
@@ -40,13 +57,22 @@ namespace JeBalance.Denonciation
 
             }
             // Enfin, si le suspect de la dénonciation est VIP, alors l'informateur devient Calominateur
-            // Comme on n'a pas l'id du Suspect, on doit le confondre par nom, prénom et ville de résidence pour être sûr
-            var suspect = await context.Personnes.FirstOrDefaultAsync(p => p.Prenom == denonciation.Suspect.Accuse.Prenom &&
-                p.Nom == denonciation.Suspect.Accuse.Nom && p.Adresse.NomdeCommune == denonciation.Suspect.Accuse.Adresse.NomdeCommune).ConfigureAwait(false);
+            // Comme on n'a pas l'id du Suspect, on doit le confondre par nom, prénom et l'adresse pour être sûr
+            var suspect = await context.Suspects
+                //.Include(p => p.Accuse) 
+                .FirstOrDefaultAsync(p =>
+                    denonciation.Suspect != null &&
+                    //p.Accuse.Id == denonciation.Suspect.Accuse.Id && 
+                    (p.Prenom == denonciation.Suspect.Prenom) &&
+                    (p.Nom == denonciation.Suspect.Nom) &&
+                    (p.Adresse != null && denonciation.Suspect.Adresse != null) &&
+                    (p.Adresse.PersonneId == denonciation.Suspect.Id))
+                .ConfigureAwait(false);
+
 
             if (suspect !=null && suspect.VIP && informateur != null)
             {
-                informateur.Calominateur = true;
+                informateur.Calomniateur = true;
                 context.Update(informateur);
                 await context.SaveChangesAsync().ConfigureAwait(false);
 

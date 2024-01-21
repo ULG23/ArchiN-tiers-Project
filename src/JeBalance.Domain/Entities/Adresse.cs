@@ -12,5 +12,15 @@ namespace JeBalance.Entities
         public required int CodePostal { get; set; }
 
         public required string NomdeCommune { get; set; }
+
+        public Guid PersonneId { get; set; }
+
+        public Adresse (Guid id) : base(id)
+        {
+
+        }
+        public Adresse()
+        { }
+
     }
 }

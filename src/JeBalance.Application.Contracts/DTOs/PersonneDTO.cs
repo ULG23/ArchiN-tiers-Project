@@ -5,12 +5,17 @@ namespace JeBalance.DTOs
 {
 	public class PersonneDTO
 	{
-        [Required]
-        public string Prenom { get; set; }
-        [Required]
-        public string Nom { get; set; }
-        [Required]
-        public AdresseDTO Adresse { get; set; }
+        public Guid? Id { get; set; }
+
+        public string? Prenom { get; set; }
+
+        public string? Nom { get; set; }
+
+        public AdresseDTO? Adresse { get; set; }
+
+        public bool? Calomniateur { get; set; }
+
+        public bool? VIP { get; set; }
     }
 }
 

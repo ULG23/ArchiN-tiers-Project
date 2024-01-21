@@ -7,13 +7,13 @@ namespace JeBalance.Entities
 {
 	public class Denonciation : Entity<Guid>, IHasCreationTime, IHasModificationTime
     {
-        public Guid? Informateur { get; set; }
+        public required Informateur Informateur { get; set; }
 
         public required Suspect Suspect { get; set; }
 
 		public eDelit Delit { get; set; }
 
-		public string? PaysEvasion { get; set; }
+		public required string PaysEvasion { get; set; }
 
 		public Reponse? Reponse { get; set; }
 
@@ -22,6 +22,14 @@ namespace JeBalance.Entities
 
         // Permet d'avoir l'horodatage de la dernière modification de la dénonciation
         public DateTime? LastModificationTime { get; set; }
+
+        public Denonciation(Guid id) : base(id)
+        {
+
+        }
+
+        public Denonciation()
+        { }
     }
 }
 

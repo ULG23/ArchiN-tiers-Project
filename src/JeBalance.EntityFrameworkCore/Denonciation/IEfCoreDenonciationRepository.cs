@@ -9,5 +9,7 @@ namespace JeBalance.Denonciation
     {
         public Task<Guid> RegisterDenonciationAsync(Entities.Denonciation denonciation);
 
+
+        public Task<Entities.Denonciation> GetDenonciationAsync(Guid id);
     }
 }

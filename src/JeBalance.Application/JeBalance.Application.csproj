@@ -25,9 +25,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="Services\" />
+    <None Remove="Denonciation\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Services\" />
+    <Folder Include="Denonciation\" />
   </ItemGroup>
 </Project>

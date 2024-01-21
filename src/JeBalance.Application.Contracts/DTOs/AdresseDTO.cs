@@ -5,15 +5,18 @@ namespace JeBalance.DTOs
 {
 	public class AdresseDTO
 	{
-        public int Numero { get; set; }
+        public Guid? Id { get; set; }
 
-        [Required]
-        public string NomdeVoie { get; set; }
+        public int? Numero { get; set; }
 
-        public int CodePostal { get; set; }
+        public string? NomdeVoie { get; set; }
 
-        [Required]
-        public string NomdeCommune { get; set; }
+        public int? CodePostal { get; set; }
+
+        public string? NomdeCommune { get; set; }
+
+        public Guid? PersonneId { get; set; }
+
     }
 }
 

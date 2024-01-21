@@ -87,10 +87,7 @@ public class JeBalanceDbContext :
         builder.Entity<Administrateur>();
         builder.Entity<Adresse>();
         builder.Entity<Confirmation>();
-        builder.Entity<Entities.Denonciation>()
-       .HasOne(d => d.Suspect)
-       .WithOne(s => s.Denonciation)
-       .HasForeignKey<Suspect>(s => s.Id);
+        builder.Entity<Entities.Denonciation>();
         builder.Entity<Informateur>();
         builder.Entity<Personne>()
             .HasKey(p => p.Id);

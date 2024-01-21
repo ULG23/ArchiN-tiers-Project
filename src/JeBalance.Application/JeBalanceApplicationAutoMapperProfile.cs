@@ -2,6 +2,7 @@
 using AutoMapper;
 using JeBalance.DTOs;
 using JeBalance.Entities;
+using Volo.Abp.Guids;
 
 namespace JeBalance;
 
@@ -10,7 +11,6 @@ public class JeBalanceApplicationAutoMapperProfile : Profile
     public JeBalanceApplicationAutoMapperProfile()
     {
         CreateMap<Entities.Denonciation, DenonciationDTO>()
-               .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Id))
                .ForMember(dest => dest.Informateur, opt => opt.MapFrom(src => src.Informateur))
                .ForMember(dest => dest.Suspect, opt => opt.MapFrom(src => src.Suspect))
                .ForMember(dest => dest.Delit, opt => opt.MapFrom(src => src.Delit))
@@ -27,13 +27,13 @@ public class JeBalanceApplicationAutoMapperProfile : Profile
 
 
         // Suspect Mappings
-        CreateMap<SuspectDTO, Suspect>()
-            .ForMember(dest => dest.Accuse, opt => opt.MapFrom(src => src.Accuse))
-            .ForMember(dest => dest.Denonciation, opt => opt.MapFrom(src => src.Denonciation));
+        CreateMap<SuspectDTO, Suspect>();
+            //.ForMember(dest => dest.Accuse, opt => opt.MapFrom(src => src.Accuse));
+            //.ForMember(dest => dest.Denonciation, opt => opt.MapFrom(src => src.Denonciation));
 
-        CreateMap<Suspect, SuspectDTO>()
-            .ForMember(dest => dest.Accuse, opt => opt.MapFrom(src => src.Accuse))
-            .ForMember(dest => dest.Denonciation, opt => opt.MapFrom(src => src.Denonciation));
+        CreateMap<Suspect, SuspectDTO>();
+            //.ForMember(dest => dest.Accuse, opt => opt.MapFrom(src => src.Accuse));
+            //.ForMember(dest => dest.Denonciation, opt => opt.MapFrom(src => src.Denonciation));
 
         // Personne Mappings
         CreateMap<PersonneDTO, Personne>()
@@ -58,5 +58,8 @@ public class JeBalanceApplicationAutoMapperProfile : Profile
         CreateMap<ConfirmationDTO, Confirmation>();
         CreateMap<Confirmation, ConfirmationDTO>();
 
+        // Informateur Mappings
+        CreateMap<InformateurDTO, Informateur>();
+        CreateMap<Informateur, InformateurDTO>();
     }
 }
