@@ -32,6 +32,8 @@ namespace JeBalance.Services
             denonciation.Informateur.Adresse.PersonneId = denonciation.Informateur.Id;
             denonciation.Suspect.Adresse.PersonneId = denonciation.Suspect.Id;
             denonciation.Suspect.Adresse.Id = _guidGenerator.Create();
+            denonciation.CreationTime = DateTime.Now;
+            denonciation.LastModificationTime = DateTime.Now;
             var denonciationToRegistrer = ObjectMapper.Map< DenonciationDTO, Entities.Denonciation > (denonciation);
 
             await efCoreDenonciationRepository.RegisterDenonciationAsync(denonciationToRegistrer).ConfigureAwait(false);
