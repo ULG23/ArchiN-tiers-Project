@@ -4,6 +4,6 @@ public static class JeBalancePermissions
 {
     public const string GroupName = "JeBalance";
 
-    //Add your own permission names. Example:
-    //public const string MyPermission1 = GroupName + ".MyPermission1";
+    public const string Admin = GroupName + ".Admin";
+    public const string AdminFiscale = GroupName + ".AdminFiscale";
 }

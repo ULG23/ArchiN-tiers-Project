@@ -8,9 +8,10 @@ public class JeBalancePermissionDefinitionProvider : PermissionDefinitionProvide
 {
     public override void Define(IPermissionDefinitionContext context)
     {
-        var myGroup = context.AddGroup(JeBalancePermissions.GroupName);
-        //Define your own permissions here. Example:
-        //myGroup.AddPermission(JeBalancePermissions.MyPermission1, L("Permission:MyPermission1"));
+        var group = context.AddGroup(JeBalancePermissions.GroupName);
+
+        group.AddPermission(JeBalancePermissions.Admin, L("Permission:Admin"));
+        group.AddPermission(JeBalancePermissions.AdminFiscale, L("Permission:AdminFiscale"));
     }
 
     private static LocalizableString L(string name)
