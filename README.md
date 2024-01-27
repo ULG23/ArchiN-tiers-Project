@@ -3,6 +3,8 @@
 ## Pour les endpoints privés avec nécessité de s'authentifier
 
 Il faut configurer Postman afin que le retour qu'il affiche soit en effet le retour de l'API, car l'application est configuré pour qu'en cas de requête Unauthorized vosu soyez automatiquement redirigé sur la page de login.
+![image](https://github.com/ULG23/ArchiN-tiers-Project/assets/107026927/aebc57ad-779e-4008-8738-c8e8d51f35ed)
+
 
 ## Pour faire une mise à jour de la base avec EFCore il faut appliquer la commande 
 $ dotnet ef database update\
