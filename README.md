@@ -1,5 +1,9 @@
 # JeBalance
 
+## Pour les endpoints privés avec nécessité de s'authentifier
+
+Il faut configurer Postman afin que le retour qu'il affiche soit en effet le retour de l'API, car l'application est configuré pour qu'en cas de requête Unauthorized vosu soyez automatiquement redirigé sur la page de login.
+
 ## Pour faire une mise à jour de la base avec EFCore il faut appliquer la commande 
 $ dotnet ef database update\
 Cependant il faut pour cela avoir la commande dotnet ef dans son environnement\
