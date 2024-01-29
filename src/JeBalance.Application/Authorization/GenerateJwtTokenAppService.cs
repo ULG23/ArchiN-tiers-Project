@@ -12,6 +12,7 @@ using Volo.Abp.Application.Services;
 using System.Threading.Tasks;
 using static Volo.Abp.Identity.IdentityPermissions;
 using JeBalance.Settings;
+using System.Security.Cryptography;
 
 namespace JeBalance.Authorization
 { 
@@ -71,19 +72,19 @@ namespace JeBalance.Authorization
         // Endpoints permettant de générer des tokens d'une durée de 2h, avec les différents rôles
         public async Task<string> GetTokenWithAdminRole()
         {
-            var token = await GenerateToken(new string[] { "admin" });
+            var token = await GenerateToken(new string[] { "admin" }).ConfigureAwait(false);
             return token.Token; 
         }
 
         public async Task<string> GetTokenWithAdminFiscaleRole()
         {
-            var token = await GenerateToken(new string[] { "adminFiscale" });
+            var token = await GenerateToken(new string[] { "adminFiscale" }).ConfigureAwait(false);
             return token.Token;
         }
 
         public async Task<string> GetTokenWithBothAdminRole()
         {
-            var token = await GenerateToken(new string[] { "admin", "adminFiscale" });
+            var token = await GenerateToken(new string[] { "admin", "adminFiscale" }).ConfigureAwait(false);
             return token.Token;
         }
     }

@@ -4,7 +4,6 @@ using System.Threading.Tasks;
 using JeBalance.Denonciation;
 using JeBalance.DTOs;
 using JeBalance.Entities;
-using JeBalance.Permissions;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Volo.Abp.Application.Services;
@@ -12,7 +11,6 @@ using Volo.Abp.DependencyInjection;
 using Volo.Abp.Domain.Repositories;
 using Volo.Abp.Guids;
 using Volo.Abp.ObjectMapping;
-using static Volo.Abp.Identity.IdentityPermissions;
 
 namespace JeBalance.Services
 {
@@ -44,7 +42,9 @@ namespace JeBalance.Services
             
         }
 
-        [Authorize(Roles = JeBalancePermissions.AdminFiscale)]
+
+        // Permet de sécuriser les endpoints
+        //[Authorize(Roles = "adminFiscale")]
         public async Task<DenonciationDTO> GetAsync(Guid id)
         {
             var denonciation = await efCoreDenonciationRepository.GetDenonciationAsync(id).ConfigureAwait(false);

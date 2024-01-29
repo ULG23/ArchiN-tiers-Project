@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System;
+using System.Text;
 using JeBalance.Settings;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Configuration;
@@ -33,26 +34,6 @@ public class JeBalanceApplicationModule : AbpModule
         {
             options.AddMaps<JeBalanceApplicationModule>();
         });
-
-
-        var configuration = context.Services.GetConfiguration();
-
-        context.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-    .AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, options =>
-    {
-        var settings = new JwtSettings();
-        configuration.Bind(AppSettingsKey.Jwt, settings);
-
-        options.Audience = settings.Audience;
-        options.ClaimsIssuer = settings.Issuer;
-
-        options.TokenValidationParameters.ValidAudience = settings.Audience;
-        options.TokenValidationParameters.ValidateAudience = settings.ValidateAudience;
-        options.TokenValidationParameters.ValidateIssuer = settings.ValidateIssuer;
-        options.TokenValidationParameters.ValidIssuer = settings.Issuer;
-        options.TokenValidationParameters.ValidateLifetime = settings.ValidateLifetime;
-        options.TokenValidationParameters.IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(settings.IssuerSigningKey));
-    });
 
     }
 }
