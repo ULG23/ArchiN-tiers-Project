@@ -1,5 +1,7 @@
 ﻿using System.Text;
+using JeBalance.Settings;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using Volo.Abp.Account;
@@ -33,20 +35,24 @@ public class JeBalanceApplicationModule : AbpModule
         });
 
 
-        //context.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-        //.AddJwtBearer(options =>
-        //{
-        //    options.TokenValidationParameters = new TokenValidationParameters
-        //    {
-        //        ValidateIssuer = true,
-        //        ValidateAudience = true,
-        //        ValidateLifetime = true,
-        //        ValidateIssuerSigningKey = true,
-        //        ValidIssuer = Configuration["Jwt:Issuer"],
-        //        ValidAudience = Configuration["Jwt:Audience"],
-        //        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configura1tion["Jwt:Key"]))
-        //    };
-        //});
+        var configuration = context.Services.GetConfiguration();
+
+        context.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, options =>
+    {
+        var settings = new JwtSettings();
+        configuration.Bind(AppSettingsKey.Jwt, settings);
+
+        options.Audience = settings.Audience;
+        options.ClaimsIssuer = settings.Issuer;
+
+        options.TokenValidationParameters.ValidAudience = settings.Audience;
+        options.TokenValidationParameters.ValidateAudience = settings.ValidateAudience;
+        options.TokenValidationParameters.ValidateIssuer = settings.ValidateIssuer;
+        options.TokenValidationParameters.ValidIssuer = settings.Issuer;
+        options.TokenValidationParameters.ValidateLifetime = settings.ValidateLifetime;
+        options.TokenValidationParameters.IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(settings.IssuerSigningKey));
+    });
 
     }
 }
