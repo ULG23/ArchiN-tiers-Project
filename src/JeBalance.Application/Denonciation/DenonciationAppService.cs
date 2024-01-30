@@ -6,6 +6,7 @@ using JeBalance.DTOs;
 using JeBalance.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Volo.Abp;
 using Volo.Abp.Application.Services;
 using Volo.Abp.DependencyInjection;
 using Volo.Abp.Domain.Repositories;
@@ -43,13 +44,31 @@ namespace JeBalance.Services
         }
 
 
-        // Permet de sécuriser les endpoints
-        //[Authorize(Roles = "adminFiscale")]
         public async Task<DenonciationDTO> GetAsync(Guid id)
         {
             var denonciation = await efCoreDenonciationRepository.GetDenonciationAsync(id).ConfigureAwait(false);
 
             return ObjectMapper.Map<Entities.Denonciation, DenonciationDTO>(denonciation);
+        }
+
+        [Authorize(Roles ="admin")]
+        public async Task<DenonciationDTO> PostCreateARespondToADenonciation(Guid _denonciationId, ReponseDTO _reponse)
+        {
+            // vérification que la dénonciation n'a pas encore reçue de réponse
+            var denonciation = await efCoreDenonciationRepository.GetDenonciationAsync(_denonciationId).ConfigureAwait(false);
+
+            if(denonciation.Reponse != null)
+            {
+                throw new UserFriendlyException("Cette dénonciation a déjà été traitée");
+            }
+
+            var reponseEntity = ObjectMapper.Map<ReponseDTO, Reponse>(_reponse);
+
+            denonciation.Reponse = reponseEntity;
+
+            var denonciationUpdated = await efCoreDenonciationRepository.UpdateAsync(denonciation).ConfigureAwait(false);
+
+            return ObjectMapper.Map<Entities.Denonciation, DenonciationDTO>(denonciationUpdated);
         }
     }
 }

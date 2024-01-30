@@ -19,5 +19,14 @@ namespace JeBalance.Services
         /// <param name="_denonciationId"></param>
         /// <returns></returns>
         public Task<DenonciationDTO> GetAsync(Guid _denonciationId);
+
+
+        /// <summary>
+        /// Permet de donner une réponse à une dénonciation, il faut être de l'adminnistration fiscale pour ça
+        /// </summary>
+        /// <param name="_denonciationId"> id de la dénonciation que l'on veut mettre à jour </param>
+        /// <param name="_reponse"> réponse que l'on veut appoerter à la dite dénonciation </param>
+        /// <returns></returns>
+        public Task<DenonciationDTO> PostCreateARespondToADenonciation(Guid _denonciationId, ReponseDTO _reponse);
     }
 }
