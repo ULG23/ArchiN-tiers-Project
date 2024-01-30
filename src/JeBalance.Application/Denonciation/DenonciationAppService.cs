@@ -52,10 +52,10 @@ namespace JeBalance.Services
         }
 
         [Authorize(Roles ="admin")]
-        public async Task<DenonciationDTO> PostCreateARespondToADenonciation(Guid _denonciationId, ReponseDTO _reponse)
+        public async Task<DenonciationDTO> PostCreateRespondToDenonciation(Guid id, ReponseDTO _reponse)
         {
             // vérification que la dénonciation n'a pas encore reçue de réponse
-            var denonciation = await efCoreDenonciationRepository.GetDenonciationAsync(_denonciationId).ConfigureAwait(false);
+            var denonciation = await efCoreDenonciationRepository.GetDenonciationAsync(id).ConfigureAwait(false);
 
             if(denonciation.Reponse != null)
             {
