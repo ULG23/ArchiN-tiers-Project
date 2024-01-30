@@ -52,7 +52,7 @@ public class JeBalanceDbContext :
     public DbSet<Tenant> Tenants { get; set; }
     public DbSet<TenantConnectionString> TenantConnectionStrings { get; set; }
 
-    public DbSet<Personne> Personnes { get; set; }
+    public DbSet<Entities.Personne> Personnes { get; set; }
     public DbSet<Adresse> Adresses { get; set; }
     public DbSet<Confirmation> Confirmations { get; set; }
     public DbSet<Entities.Denonciation> Denonciations { get; set; }
@@ -89,7 +89,7 @@ public class JeBalanceDbContext :
         builder.Entity<Confirmation>();
         builder.Entity<Entities.Denonciation>();
         builder.Entity<Informateur>();
-        builder.Entity<Personne>()
+        builder.Entity<Entities.Personne>()
             .HasKey(p => p.Id);
         builder.Entity<Reponse>();
         builder.Entity<Suspect>();

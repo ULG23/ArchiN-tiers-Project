@@ -36,12 +36,12 @@ public class JeBalanceApplicationAutoMapperProfile : Profile
             //.ForMember(dest => dest.Denonciation, opt => opt.MapFrom(src => src.Denonciation));
 
         // Personne Mappings
-        CreateMap<PersonneDTO, Personne>()
+        CreateMap<PersonneDTO, Entities.Personne>()
             .ForMember(dest => dest.Prenom, opt => opt.MapFrom(src => src.Prenom))
             .ForMember(dest => dest.Nom, opt => opt.MapFrom(src => src.Nom))
             .ForMember(dest => dest.Adresse, opt => opt.MapFrom(src => src.Adresse));
 
-        CreateMap<Personne, PersonneDTO>()
+        CreateMap<Entities.Personne, PersonneDTO>()
             .ForMember(dest => dest.Prenom, opt => opt.MapFrom(src => src.Prenom))
             .ForMember(dest => dest.Nom, opt => opt.MapFrom(src => src.Nom))
             .ForMember(dest => dest.Adresse, opt => opt.MapFrom(src => src.Adresse));
