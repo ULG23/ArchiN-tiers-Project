@@ -1,0 +1,36 @@
+﻿@page
+@model JeBalance.Web.Pages.IndexModel
+
+@section styles {
+    <!-- Inclure des styles spécifiques à la page si nécessaire -->
+}
+
+<div class="container">
+    <h1 class="my-4">Génération de JWT Tokens</h1>
+
+    <!-- Formulaire pour récupérer un JWT token avec le rôle Admin -->
+    <form id="adminTokenForm">
+        <button type="button" class="btn btn-primary mb-3" onclick="generateToken('Admin')">Récupérer un token avec le rôle Admin</button>
+    </form>
+
+    <!-- Formulaire pour récupérer un JWT token avec le rôle AdminFiscale -->
+    <form id="adminFiscaleTokenForm">
+        <button type="button" class="btn btn-primary mb-3" onclick="generateToken('AdminFiscale')">Récupérer un token avec le rôle AdminFiscale</button>
+    </form>
+
+    <!-- Formulaire pour récupérer un JWT token avec les rôles AdminFiscale et Admin -->
+    <form id="adminAndAdminFiscaleTokenForm">
+        <button type="button" class="btn btn-primary mb-3" onclick="generateToken('Admin,AdminFiscale')">Récupérer un token avec les rôles AdminFiscale et Admin</button>
+    </form>
+
+    <!-- Affichage du résultat -->
+    <div id="tokenResult" class="mt-4">
+        <!-- Le résultat sera affiché ici -->
+    </div>
+</div>
+
+@section scripts {
+    <script>function generateToken(roles) {
+
+        }</script>
+}

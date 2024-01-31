@@ -1,0 +1,66 @@
+﻿@page
+@model JeBalance.Web.Pages.IndexModel
+
+@section styles {
+}
+
+<div class="container">
+    <h1 class="my-4">Gestion des VIP</h1>
+
+    <!-- Formulaire pour consulter la liste des VIP -->
+    <form id="consultationForm">
+        <div class="mb-3">
+            <label for="consultationToken" class="form-label">Token</label>
+            <input type="text" class="form-control" id="consultationToken" name="consultationToken" placeholder="Saisissez votre token">
+        </div>
+        <button type="submit" class="btn btn-primary">Consulter la liste des VIP</button>
+    </form>
+
+    <!-- Liste des VIP -->
+    <div id="vipList" class="mt-4">
+        <!-- La liste des VIP sera affichée ici -->
+    </div>
+
+    <!-- Formulaire pour modifier le statut d'un VIP -->
+    <form id="modificationForm">
+        <div class="mb-3">
+            <label for="modificationToken" class="form-label">Token</label>
+            <input type="text" class="form-control" id="modificationToken" name="modificationToken" placeholder="Saisissez votre token">
+        </div>
+        <div class="mb-3">
+            <label for="vipGuid" class="form-label">GUID de la personne VIP</label>
+            <input type="text" class="form-control" id="vipGuid" name="vipGuid" placeholder="Saisissez le GUID">
+        </div>
+        <div class="mb-3">
+            <label for="statut">Statut</label>
+            <div class="form-check">
+                <input type="radio" id="vipStatut" name="statut" value="VIP" class="form-check-input">
+                <label class="form-check-label" for="vipStatut">VIP</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" id="standardStatut" name="statut" value="Standard" class="form-check-input">
+                <label class="form-check-label" for="standardStatut">Standard</label>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Modifier le statut</button>
+    </form>
+</div>
+
+@section scripts {
+    <script>document.getElementById('consultationForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            var consultationToken = document.getElementById('consultationToken').value;
+
+        });
+
+        document.getElementById('modificationForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            var modificationToken = document.getElementById('modificationToken').value;
+            var vipGuid = document.getElementById('vipGuid').value;
+            var statut = document.querySelector('input[name="statut"]:checked').value;
+
+            // Effectuez une requête pour modifier le statut du VIP en utilisant le token, le GUID et le nouveau statut
+            // Utilisez fetch() ou une autre méthode selon votre backend
+            // Affichez le résultat ou un message de confirmation
+        });</script>
+}

@@ -1,0 +1,65 @@
+﻿@page
+@model JeBalance.Web.Pages.IndexModel
+
+@section styles {
+
+}
+
+<div class="container">
+    <h1 class="my-4">Suivi des Dénonciations</h1>
+
+    <!-- Formulaire pour saisir le token -->
+    <form id="tokenForm">
+        <div class="mb-3">
+            <label for="token" class="form-label">Token</label>
+            <input type="text" class="form-control" id="token" name="token" placeholder="Saisissez votre token ici">
+        </div>
+        <button type="submit" class="btn btn-primary">Rechercher</button>
+    </form>
+
+    <!-- Zone d'affichage des dénonciations -->
+    <div id="denonciationsList" class="mt-4">
+        <!-- Les dénonciations seront chargées ici -->
+    </div>
+</div>
+
+@section scripts {
+<script>document.getElementById('tokenForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+        var token = document.getElementById('token').value;
+
+        fetch('https://yourapiurl/api/denonciations?token=' + token, {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json',
+                // Ajoutez d'autres en-têtes si nécessaire
+            }
+        })
+            .then(response => {
+                if (response.ok) {
+                    return response.json();
+                } else {
+                    throw new Error('Erreur de réponse du serveur: ' + response.status);
+                }
+            })
+            .then(data => {
+                // Traiter et afficher les données des dénonciations
+                displayDenonciations(data);
+            })
+            .catch((error) => {
+                console.error('Erreur:', error);
+            });
+    });
+
+    function displayDenonciations(data) {
+        var list = document.getElementById('denonciationsList');
+        list.innerHTML = ''; // Effacer la liste actuelle
+        data.forEach(denonciation => {
+            // Créer et ajouter les éléments de la liste pour chaque dénonciation
+            var item = document.createElement('div');
+            item.classList.add('list-group-item');
+            item.innerHTML = '<strong>' + denonciation.nomSuspect + '</strong> - ' + denonciation.delit;
+            list.appendChild(item);
+        });
+    }</script>
+}

@@ -34,6 +34,41 @@ public class JeBalanceMenuContributor : IMenuContributor
             )
         );
 
+        context.Menu.Items.Insert(
+          1,
+          new ApplicationMenuItem(
+              JeBalanceMenus.DenonciationSuivi,
+              l["DenonciationSuivi"],
+              "/DenonciationSuivi",
+              icon: "fas fa-search",
+              order: 0
+          )
+      );
+
+
+        
+            context.Menu.Items.Insert(
+          2,
+          new ApplicationMenuItem(
+              JeBalanceMenus.PersonneVIP,
+              l["PersonneVIP"],
+              "/PersonneVIP",
+              icon: "fas fa-users",
+              order: 0
+          )
+      );
+
+        context.Menu.Items.Insert(
+          3,
+          new ApplicationMenuItem(
+              JeBalanceMenus.TokenGenerator,
+              l["TokenGenerator"],
+              "/TokenGenerator",
+              icon: "fas fa-key",
+              order: 0
+          )
+      );
+
         if (MultiTenancyConsts.IsEnabled)
         {
             administration.SetSubItemOrder(TenantManagementMenuNames.GroupName, 1);
