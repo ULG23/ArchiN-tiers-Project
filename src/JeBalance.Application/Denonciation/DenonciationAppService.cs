@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Net.Mail;
 using System.Threading.Tasks;
 using JeBalance.Denonciation;
@@ -69,6 +70,12 @@ namespace JeBalance.Services
             var denonciationUpdated = await efCoreDenonciationRepository.UpdateAsync(denonciation).ConfigureAwait(false);
 
             return ObjectMapper.Map<Entities.Denonciation, DenonciationDTO>(denonciationUpdated);
+        }
+        public async Task<List<DenonciationDTO>> GetListDenonciationNonTraiteAsync()
+        {
+            var listDenonciationNonTraite = await efCoreDenonciationRepository.ListDenonciationNonTraiteAsync().ConfigureAwait(false);
+
+            return ObjectMapper.Map<List<Entities.Denonciation>, List<DenonciationDTO>>(listDenonciationNonTraite);
         }
     }
 }

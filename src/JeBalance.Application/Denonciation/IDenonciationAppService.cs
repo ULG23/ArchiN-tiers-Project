@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using JeBalance.DTOs;
 
@@ -28,5 +29,8 @@ namespace JeBalance.Services
         /// <param name="_reponse"> réponse que l'on veut appoerter à la dite dénonciation </param>
         /// <returns></returns>
         public Task<DenonciationDTO> PostCreateRespondToDenonciation(Guid _denonciationId, ReponseDTO _reponse);
+
+        public Task<List<DenonciationDTO>> GetListDenonciationNonTraiteAsync();
+
     }
 }

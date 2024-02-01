@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using static Volo.Abp.Identity.Settings.IdentitySettingNames;
 using Volo.Abp.Domain.Repositories;
+using System.Collections.Generic;
 
 namespace JeBalance.Denonciation
 {
@@ -11,5 +12,8 @@ namespace JeBalance.Denonciation
 
 
         public Task<Entities.Denonciation> GetDenonciationAsync(Guid id);
+
+        Task<List<Entities.Denonciation>> ListDenonciationNonTraiteAsync();
+
     }
 }

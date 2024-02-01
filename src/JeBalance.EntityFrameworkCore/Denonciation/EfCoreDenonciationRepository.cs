@@ -6,6 +6,8 @@ using Volo.Abp.EntityFrameworkCore;
 using JeBalance.Entities;
 using Microsoft.EntityFrameworkCore;
 using Volo.Abp;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace JeBalance.Denonciation
 {
@@ -84,6 +86,19 @@ namespace JeBalance.Denonciation
 
             return denonciation.Id;
 
+        }
+
+        public async Task<List<Entities.Denonciation>> ListDenonciationNonTraiteAsync()
+        {
+            var context = await GetDbContextAsync().ConfigureAwait(false);
+
+            var denonciationsWithNonGuidFormatReponse = await context.Denonciations
+                .Where(d => d.Reponse.Id == null)
+                .OrderBy(d => d.CreationTime)
+                .ToListAsync()
+                .ConfigureAwait(false);
+
+            return denonciationsWithNonGuidFormatReponse;
         }
     }
 }
