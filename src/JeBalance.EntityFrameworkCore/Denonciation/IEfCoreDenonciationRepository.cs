@@ -13,7 +13,7 @@ namespace JeBalance.Denonciation
 
         public Task<Entities.Denonciation> GetDenonciationAsync(Guid id);
 
-        Task<List<Entities.Denonciation>> ListDenonciationNonTraiteAsync();
+        public Task<List<Entities.Denonciation>> ListDenonciationNonTraiteAsync();
 
     }
 }

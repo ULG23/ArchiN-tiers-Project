@@ -47,20 +47,62 @@
 </div>
 
 @section scripts {
-    <script>document.getElementById('consultationForm').addEventListener('submit', function (e) {
+    <script>document.getElementById('consultationForm').addEventListener('submit', async function (e) {
             e.preventDefault();
             var consultationToken = document.getElementById('consultationToken').value;
 
+            try {
+                const response = await fetch('/api/app/personne/personne-vip', {
+                    method: 'GET',
+                    headers: {
+                        'Authorization': `Bearer ${consultationToken}`
+                    }
+                });
+
+                if (!response.ok) {
+                    throw new Error('Error fetching VIP list');
+                }
+
+                const vipList = await response.json();
+                // Display the VIP list, you can update this based on your UI structure
+                document.getElementById('vipList').innerText = JSON.stringify(vipList, null, 2);
+            } catch (error) {
+                console.error('An error occurred:', error.message);
+                // Display an error message on the page
+                document.getElementById('vipList').innerText = 'An error occurred while fetching the VIP list.';
+            }
         });
 
-        document.getElementById('modificationForm').addEventListener('submit', function (e) {
+        document.getElementById('modificationForm').addEventListener('submit', async function (e) {
             e.preventDefault();
             var modificationToken = document.getElementById('modificationToken').value;
             var vipGuid = document.getElementById('vipGuid').value;
             var statut = document.querySelector('input[name="statut"]:checked').value;
 
-            // Effectuez une requête pour modifier le statut du VIP en utilisant le token, le GUID et le nouveau statut
-            // Utilisez fetch() ou une autre méthode selon votre backend
-            // Affichez le résultat ou un message de confirmation
+            try {
+                const response = await fetch(`/api/app/personne/${vipGuid}/modify-personne-vIPStatus`, {
+                    method: 'PUT',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${modificationToken}`
+                    },
+                    body: JSON.stringify({
+                        statut: statut
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error('Error modifying VIP status');
+                }
+
+                const result = await response.json();
+                // Display the result or a success message on the page
+                console.log(result);
+            } catch (error) {
+                console.error('An error occurred:', error.message);
+                // Display an error message on the page
+                // You can update this based on your UI structure
+                alert('An error occurred while modifying the VIP status.');
+            }
         });</script>
 }

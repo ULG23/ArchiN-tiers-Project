@@ -2,7 +2,6 @@
 @model JeBalance.Web.Pages.IndexModel
 
 @section styles {
-        <!-- Include any specific page styles if necessary -->
 }
 
 <div class="container">
@@ -28,20 +27,28 @@
 </div>
 
 @section scripts {
-        <script>
-            async function generateToken(roles, resultContainerId) {
-                try {
-                    const response = await fetch(`/api/app/generate-jwt-token/token-with-${roles}-role`);
-                    if (!response.ok) {
-                        throw new Error('Error generating token');
-                    }
-
-                    const token = await response.text();
-                    document.getElementById(resultContainerId).innerText = `Token: ${token}`;
-                } catch (error) {
-                    console.error('An error occurred:', error.message);
-                    document.getElementById(resultContainerId).innerText = 'An error occurred while generating the token.';
+    <script>async function generateToken(roles, resultContainerId) {
+            try {
+                const response = await fetch(`/api/app/generate-jwt-token/token-with-${roles}-role`);
+                if (!response.ok) {
+                    throw new Error('Error generating token');
                 }
+
+                const token = await response.text();
+
+                // Afficher le token dans une zone de texte plutôt que directement dans le texte brut
+                document.getElementById(resultContainerId).innerHTML = `
+                        <div class="alert alert-success" role="alert">
+                            <strong>Succès!</strong> Token généré avec succès: <textarea class="form-control" readonly>${token}</textarea>
+                        </div>`;
+            } catch (error) {
+                console.error('An error occurred:', error.message);
+
+                // Afficher un message d'erreur explicite en cas d'erreur
+                document.getElementById(resultContainerId).innerHTML = `
+                        <div class="alert alert-danger" role="alert">
+                            <strong>Erreur!</strong> Une erreur s'est produite lors de la génération du token.
+                        </div>`;
             }
-        </script>
+        }</script>
 }

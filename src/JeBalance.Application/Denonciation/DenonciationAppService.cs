@@ -52,8 +52,8 @@ namespace JeBalance.Services
             return ObjectMapper.Map<Entities.Denonciation, DenonciationDTO>(denonciation);
         }
 
-        [Authorize(Roles ="admin")]
-        public async Task<DenonciationDTO> PostCreateRespondToDenonciation(Guid id, ReponseDTO _reponse)
+        [Authorize(Roles ="adminFiscale")]
+        public async Task<DenonciationDTO> PostCreateResponseToDenonciation(Guid id, ReponseDTO _reponse)
         {
             // vérification que la dénonciation n'a pas encore reçue de réponse
             var denonciation = await efCoreDenonciationRepository.GetDenonciationAsync(id).ConfigureAwait(false);
@@ -71,6 +71,8 @@ namespace JeBalance.Services
 
             return ObjectMapper.Map<Entities.Denonciation, DenonciationDTO>(denonciationUpdated);
         }
+
+        [Authorize(Roles = "adminFiscale")]
         public async Task<List<DenonciationDTO>> GetListDenonciationNonTraiteAsync()
         {
             var listDenonciationNonTraite = await efCoreDenonciationRepository.ListDenonciationNonTraiteAsync().ConfigureAwait(false);
