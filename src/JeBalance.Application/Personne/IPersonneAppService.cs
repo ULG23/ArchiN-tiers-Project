@@ -13,7 +13,7 @@ namespace JeBalance.Services
         /// <param name="id"></param>
         /// <param name="newVipStatus"></param>
         /// <returns></returns>
-        public Task<PersonneDTO> PutModifyPersonneVIPStatusAsync(Guid id, bool newVipStatus);
+        public Task<PersonneDTO> PutModifyPersonneVipStatusAsync(Guid id, bool newVipStatus);
 
         /// <summary>
         /// Permet de retourner la liste des personnes dont le statut est VIP

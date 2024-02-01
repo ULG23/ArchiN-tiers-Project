@@ -60,49 +60,93 @@
                 });
 
                 if (!response.ok) {
-                    throw new Error('Error fetching VIP list');
+                    // Si la réponse n'est pas OK, vérifiez si l'en-tête WWW-Authenticate est présent
+                    const wwwAuthenticateHeader = response.headers.get('WWW-Authenticate');
+
+                    if (wwwAuthenticateHeader) {
+                        // Analysez le contenu de l'en-tête pour obtenir les détails de l'erreur
+                        const errorDetails = parseWwwAuthenticateHeader(wwwAuthenticateHeader);
+                        throw new Error(`Erreur d'authentification : ${errorDetails.error_description}`);
+                    }
+
+                    // Si l'en-tête WWW-Authenticate n'est pas présent, traitez le corps de la réponse comme JSON
+                    const errorBody = await response.json();
+                    throw new Error(errorBody.error);
                 }
 
                 const vipList = await response.json();
-                // Display the VIP list, you can update this based on your UI structure
                 document.getElementById('vipList').innerText = JSON.stringify(vipList, null, 2);
             } catch (error) {
-                console.error('An error occurred:', error.message);
-                // Display an error message on the page
-                document.getElementById('vipList').innerText = 'An error occurred while fetching the VIP list.';
+                console.error('Une erreur s\'est produite :', error.message);
+                // Afficher un message d'erreur sur la page
+                document.getElementById('vipList').innerText = error.message;
             }
         });
 
-        document.getElementById('modificationForm').addEventListener('submit', async function (e) {
+        // Fonction pour analyser le contenu de l'en-tête WWW-Authenticate
+        function parseWwwAuthenticateHeader(headerValue) {
+            const details = {};
+            const keyValuePairs = headerValue.split(',').map(pair => pair.trim());
+
+            keyValuePairs.forEach(pair => {
+                const [key, value] = pair.split('=');
+                details[key] = value.replace(/"/g, '');
+            });
+
+            return details;
+        }</script>
+
+    <script>document.getElementById('modificationForm').addEventListener('submit', async function (e) {
             e.preventDefault();
             var modificationToken = document.getElementById('modificationToken').value;
             var vipGuid = document.getElementById('vipGuid').value;
-            var statut = document.querySelector('input[name="statut"]:checked').value;
+            var statut = document.querySelector('input[name="statut"]:checked');
+
+            if (!statut) {
+                console.error('Veuillez sélectionner un statut VIP.');
+                alert('Veuillez sélectionner un statut VIP.');
+                return;
+            }
 
             try {
-                const response = await fetch(`/api/app/personne/${vipGuid}/modify-personne-vIPStatus`, {
+                const response = await fetch(`/api/app/personne/${vipGuid}/modify-personne-vip-status?newVipStatus=${statut.value === 'vip'}`, {
                     method: 'PUT',
                     headers: {
                         'Content-Type': 'application/json',
                         'Authorization': `Bearer ${modificationToken}`
-                    },
-                    body: JSON.stringify({
-                        statut: statut
-                    })
+                    }
                 });
 
                 if (!response.ok) {
-                    throw new Error('Error modifying VIP status');
+                    // Si la réponse est un Bad Request, affichez un message approprié sans essayer de traiter le JSON
+                    if (response.status === 400) {
+                        const errorBody = await response.text();
+                        console.warn(`Erreur lors de la modification du statut VIP : ${errorBody}`);
+                        // Afficher un message d'avertissement sur la page
+
+                        console.log('Contenu de la réponse :', errorBody);
+                        alert('Erreur lors de la modification du statut VIP. Vérifiez les données fournies.');
+                    } else {
+                        const errorBody = await response.json();
+                        throw new Error(`Erreur lors de la modification du statut VIP : ${errorBody.error}`);
+                    }
                 }
 
-                const result = await response.json();
-                // Display the result or a success message on the page
-                console.log(result);
+                // Vérifier si la réponse a une longueur positive avant de la traiter en tant que JSON
+                if (response.headers.get('content-length') > 0) {
+                    const result = await response.json();
+                    // Afficher le résultat ou un message de succès sur la page
+                    console.log(result);
+                } else {
+                    console.warn('La réponse était vide.');
+                    // Afficher un message d'avertissement sur la page
+                }
             } catch (error) {
-                console.error('An error occurred:', error.message);
-                // Display an error message on the page
-                // You can update this based on your UI structure
-                alert('An error occurred while modifying the VIP status.');
+                console.error('Une erreur s\'est produite :', error.message);
+                // Afficher un message d'erreur sur la page
+                alert('Une erreur s\'est produite lors de la modification du statut VIP.');
             }
         });</script>
+
+
 }

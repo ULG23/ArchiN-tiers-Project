@@ -17,7 +17,7 @@ namespace JeBalance.DTOs
         public eDelit? Delit { get; set; }
 
         //Permet de récuperer la description de la dénonciation
-        public string DelitDescription => Delit?.GetDescription();
+        public string? DelitDescription => Delit?.GetDescription();
 
         public string? PaysEvasion { get; set; }
 

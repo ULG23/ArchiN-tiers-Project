@@ -23,7 +23,7 @@ namespace JeBalance.Services
 
         // Permet de rendre l'endpoint accessible seulement avec un Token JWT en Header, valide, et dont l'un des Rôle est admin
         [Authorize(Roles = "admin")]
-        public async Task<PersonneDTO> PutModifyPersonneVIPStatusAsync(Guid id, bool newVipStatus)
+        public async Task<PersonneDTO> PutModifyPersonneVipStatusAsync(Guid id, bool newVipStatus)
         {
 
             var modifiedPersonneVIP = await efCorePersonneRepository.UpdatePersonneVIPFieldAsync(id, newVipStatus).ConfigureAwait(false);
