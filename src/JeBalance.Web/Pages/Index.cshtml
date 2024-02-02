@@ -6,10 +6,10 @@
 @inject IHtmlLocalizer<JeBalanceResource> L
 @inject ICurrentUser CurrentUser
 @section styles {
-<abp-style src="/Pages/Index.css" />
+    <abp-style src="/Pages/Index.css" />
 }
 @section scripts {
-<abp-script src="/Pages/Index.js" />
+    <abp-script src="/Pages/Index.js" />
 }
 <div class="container">
     <div class="p-5 text-center">
@@ -31,6 +31,35 @@
                 <div class="mb-3">
                     <label for="informateur" class="form-label">Informateur (GUID)</label>
                     <input type="text" class="form-control" id="informateur" name="informateur">
+
+                    <label for="informateurNom" class="form-label">Informateur Nom</label>
+                    <input type="text" class="form-control" id="informateurNom" name="informateurNom">
+
+                    <label for="informateurPrenom" class="form-label">Informateur Prénom</label>
+                    <input type="text" class="form-control" id="informateurPrenom" name="informateurPrenom">
+
+                    <!-- Adresse de l'informateur -->
+                    <div class="mb-3">
+                        <h5>Adresse de l'informateur</h5>
+
+                        <label for="numeroInformateur" class="form-label">Numéro</label>
+                        <input type="text" class="form-control" id="numeroInformateur" name="numeroInformateur">
+
+                        <label for="voieInformateur" class="form-label">Nom de la Voie</label>
+                        <input type="text" class="form-control" id="voieInformateur" name="voieInformateur">
+
+                        <label for="codePostalInformateur" class="form-label">Code Postal</label>
+                        <input type="text" class="form-control" id="codePostalInformateur" name="codePostalInformateur">
+
+                        <label for="communeInformateur" class="form-label">Nom de la Commune</label>
+                        <input type="text" class="form-control" id="communeInformateur" name="communeInformateur">
+                    </div>
+
+                    <label for="calomniateurInformateur" class="form-label">Calomniateur</label>
+                    <input type="checkbox" id="calomniateurInformateur" name="calomniateurInformateur">
+
+                    <label for="vipInformateur" class="form-label">VIP</label>
+                    <input type="checkbox" id="vipInformateur" name="vipInformateur">
                 </div>
 
                 <!-- Suspect -->
@@ -44,101 +73,136 @@
                     <label for="prenomSuspect" class="form-label">Prénom du Suspect</label>
                     <input type="text" class="form-control" id="prenomSuspect" name="prenomSuspect">
 
-                    <!-- Adresse de l'accusé -->
+                    <!-- Adresse du suspect -->
                     <div class="mb-3">
-                        <h5>Adresse de l'accusé</h5>
+                        <h5>Adresse du suspect</h5>
 
-                        <label for="communeAccuse" class="form-label">Nom de la Commune</label>
-                        <input type="text" class="form-control" id="communeAccuse" name="communeAccuse">
+                        <label for="numeroSuspect" class="form-label">Numéro</label>
+                        <input type="text" class="form-control" id="numeroSuspect" name="numeroSuspect">
 
-                        <label for="voieAccuse" class="form-label">Nom de la Voie</label>
-                        <input type="text"
-                               class="form-control" id="voieAccuse" name="voieAccuse">
+                        <label for="voieSuspect" class="form-label">Nom de la Voie</label>
+                        <input type="text" class="form-control" id="voieSuspect" name="voieSuspect">
 
-                        <label for="numeroAccuse" class="form-label">Numéro</label>
-                        <input type="text" class="form-control" id="numeroAccuse" name="numeroAccuse">
+                        <label for="codePostalSuspect" class="form-label">Code Postal</label>
+                        <input type="text" class="form-control" id="codePostalSuspect" name="codePostalSuspect">
 
-                        <label for="codePostalAccuse" class="form-label">Code Postal</label>
-                        <input type="text" class="form-control" id="codePostalAccuse" name="codePostalAccuse">
+                        <label for="communeSuspect" class="form-label">Nom de la Commune</label>
+                        <input type="text" class="form-control" id="communeSuspect" name="communeSuspect">
                     </div>
+
+                    <label for="calomniateurSuspect" class="form-label">Calomniateur</label>
+                    <input type="checkbox" id="calomniateurSuspect" name="calomniateurSuspect">
+
+                    <label for="vipSuspect" class="form-label">VIP</label>
+                    <input type="checkbox" id="vipSuspect" name="vipSuspect">
                 </div>
 
-                    <!-- Delit -->
-                    <div class="mb-3">
-                        <label for="delit" class="form-label">Délit</label>
-                        <select class="form-select" id="delit" name="delit">
-                            <option value="dissimulation">Dissimulation</option>
-                            <option value="evasion">Évasion</option>
-                        </select>
-                    </div>
+                <!-- Delit -->
+                <div class="mb-3">
+                    <label for="delit" class="form-label">Délit</label>
+                    <select class="form-select" id="delit" name="delit">
+                        <option value="0">Dissimulation</option>
+                        <option value="1">Évasion</option>
+                    </select>
+                </div>
 
-                    <!-- Pays d'évasion -->
-                    <div class="mb-3">
-                        <label for="paysEvasion" class="form-label">Pays d'évasion</label>
-                        <input type="text" class="form-control" id="paysEvasion" name="paysEvasion">
-                    </div>
+                <!-- Pays d'évasion -->
+                <div class="mb-3">
+                    <label for="paysEvasion" class="form-label">Pays d'évasion</label>
+                    <input type="text" class="form-control" id="paysEvasion" name="paysEvasion">
+                </div>
 
-                    <!-- Bouton de soumission -->
-                    <button type="submit" class="btn btn-primary">Soumettre</button>
-</form>
-
-            <div id="resultDisplay"></div>
+                <!-- Bouton de soumission -->
+                <button type="submit" class="btn btn-primary">Soumettre</button>
+            </form>
         </div>
     </div>
 
-    <script>document.getElementById('denonciationForm').addEventListener('submit', function (e) {
-            e.preventDefault();
+    <div id="resultDisplay"></div>
 
-            var formData = {
-                informateur: document.getElementById('informateur').value,
-                suspect: {
-                    accuse: {
-                        prenom: document.getElementById('prenomSuspect').value,
-                        nom: document.getElementById('nomSuspect').value,
-                        adresse: {
-                            numero: parseInt(document.getElementById('numeroAccuse').value, 10),
-                            nomdeVoie: document.getElementById('voieAccuse').value,
-                            codePostal: parseInt(document.getElementById('codePostalAccuse').value, 10),
-                            nomdeCommune: document.getElementById('communeAccuse').value
-                        }
-                    }
+    <script>var formData = {
+            informateur: {
+                id: document.getElementById('informateur').value,
+                prenom: document.getElementById('informateurPrenom').value,
+                nom: document.getElementById('informateurNom').value,
+                adresse: {
+                    id: "3fa85f64-5717-4562-b3fc-2c963f66afa5",
+                    numero: parseInt(document.getElementById('numeroInformateur').value, 10),
+                    nomdeVoie: document.getElementById('voieInformateur').value,
+                    codePostal: parseInt(document.getElementById('codePostalInformateur').value, 10),
+                    nomdeCommune: document.getElementById('communeInformateur').value
                 },
-                delit: parseInt(document.getElementById('delit').value),
-                paysEvasion: document.getElementById('paysEvasion').value
-                //reponse: {
-                //    // Structurez cette partie conformément à vos besoins
-                //    confirmation: {
-                //        retribution: 0 // ou toute autre valeur appropriée
-                //    }
-                //}
-            };
+                calomniateur: document.getElementById('calomniateurInformateur').checked,
+                vip: document.getElementById('vipInformateur').checked
+            },
+            suspect: {
+                id: document.getElementById('suspectId').value,
+                prenom: document.getElementById('prenomSuspect').value,
+                nom: document.getElementById('nomSuspect').value,
+                adresse: {
+                    id: "3fa85f64-5717-4562-b3fc-2c963f66afa5",
+                    numero: parseInt(document.getElementById('numeroSuspect').value, 10),
+                    nomdeVoie: document.getElementById('voieSuspect').value,
+                    codePostal: parseInt(document.getElementById('codePostalSuspect').value, 10),
+                    nomdeCommune: document.getElementById('communeSuspect').value
+                },
+                calomniateur: document.getElementById('calomniateurSuspect').checked,
+                vip: document.getElementById('vipSuspect').checked
+            },
+            delit: parseInt(document.getElementById('delit').value),
+            paysEvasion: document.getElementById('paysEvasion').value
+        };
 
-            fetch('https://localhost:44384/api/app/denonciation/create-denonciation', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
+        const jsonData = {
+            id: "3fa85f64-5717-4562-b3fc-2c963f66afa5",
+            informateur: formData.informateur,
+            suspect: formData.suspect,
+            delit: formData.delit,
+            paysEvasion: formData.paysEvasion,
+            reponse: {
+                id: "3fa85f64-5717-4562-b3fc-2c963f66afa5",
+                confirmation: {
+                    id: "3fa85f64-5717-4562-b3fc-2c963f66afa5",
+                    retribution: 0
                 },
-                body: JSON.stringify(formData)
-            })
-                .then(response => {
-                    if (response.ok) {
-                        return response.json();
-                    } else {
-                        throw new Error('Réponse du serveur non valide : ' + response.status);
-                    }
-                })
-                .then(data => {
+                creationTime: new Date().toISOString(),
+                lastModificationTime: new Date().toISOString(),
+                rejected: false
+            },
+            creationTime: new Date().toISOString(),
+            lastModificationTime: new Date().toISOString()
+        };
+        async function submitForm() {
+            try {
+                // Your form data and fetch logic here
+                const response = await fetch('/api/app/denonciation/create-denonciation', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(jsonData),
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
                     console.log('Success:', data);
                     var guid = data.id;
                     document.getElementById('resultDisplay').textContent = 'GUID retourné : ' + guid;
-                })
-                .catch((error) => {
-                    console.error('Error:', error);
-                    document.getElementById('resultDisplay').textContent = 'Erreur lors de la soumission : ' + error.message;
-                });
-        });
+                } else {
+                    throw new Error('Réponse du serveur non valide : ' + response.status);
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                console.error('Error Stack:', error.stack);
+                document.getElementById('resultDisplay').textContent = 'Erreur lors de la soumission : ' + error.message;
+            }
+        }
 
-</script>
+        document.getElementById('denonciationForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            submitForm();
+        });</script>
+
 
     <div id="result"></div>
 
@@ -146,13 +210,13 @@
 
     <div class="card">
         <div class="card-body">
-            <form id="denonciationForm">
-                <h2>Créer une dénonciation</h2>
+            <form id="ConsultdenonciationForm">
+                <h2>Consulter une dénonciation</h2>
 
                 <!-- Dénonciation -->
                 <div class="mb-3">
                     <label for="denonciation" class="form-label">Dénonciaton (GUID)</label>
-                    <input type="text" class="form-control" id="denonciation" name="denonciation">
+                    <input type="text" class="form-control" id="consultdenonciation" name="consultdenonciation">
                 </div>
 
                 <!-- Bouton de soumission -->
@@ -160,7 +224,7 @@
             </form>
         </div>
     </div>
-
+    <div id="denonciationList" class="mt-4"></div>
     <div class="mb-5 text-center">
         <p class="align-middle">
             <a href="https://twitter.com/abpframework" target="_blank" class="mx-2"><i class="fa fa-twitter"></i><span class="text-secondary"> Abp Framework</span></a>
@@ -169,3 +233,30 @@
         </p>
     </div>
 </div>
+<script>document.getElementById('ConsultdenonciationForm').addEventListener('submit', async function (e) {
+        e.preventDefault();
+        var consultationToken = document.getElementById('consultdenonciation').value;
+
+        try {
+            const response = await fetch(`/api/app/denonciation/${consultationToken}`, {
+                method: 'GET',
+                headers: {
+                    'Authorization': `Bearer ${consultationToken}`
+                }
+            });
+
+            if (!response.ok) {
+                throw new Error('Error fetching denonciation list');
+            }
+
+            const denonciationList = await response.json();
+            // Display the denonciation list; update this based on your UI structure
+            document.getElementById('denonciationList').innerText = JSON.stringify(denonciationList, null, 2);
+        } catch (error) {
+            console.error('An error occurred:', error.message);
+            // Display an error message on the page
+            document.getElementById('denonciationList').innerText = 'An error occurred while fetching the denonciation list.';
+        }
+        });
+</script>
+
