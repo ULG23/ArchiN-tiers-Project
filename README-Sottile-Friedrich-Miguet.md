@@ -18,15 +18,18 @@ Sur cette page, vous pouvez effectuer deux actions distinctes :
 
 ### Créer une dénonciation
 La première action consiste à créer une dénonciation. Pour ce faire, vous devez accuser un suspect en fournissant son nom et son prénom. Ensuite, vous devez renseigner l'adresse du suspect, composée du code postal, du nom de la commune, du nom de la voie et du numéro de la voie. Enfin, pour compléter la dénonciation, vous devez sélectionner le délit correspondant, qu'il s'agisse d'évasion fiscale ou de dissimulation de revenus, et préciser dans quel pays ce délit a été commis.
+Le lien entre l'interface utilisateur et le Endpoint n'a pas pu être finalisé, cependant le Endpoint associé à la création de la dénonciation est totalement fonctionnelle
 
 ### Consulter une dénonciation
 La deuxième action possible sur cette page est la consultation d'une dénonciation. Pour ce faire, vous devez disposer de l'identifiant de la dénonciation. En appuyant sur le bouton dédié, cela vous renverra un format JSON décrivant la dénonciation.
 
 ## DenonciationSuivi
-Sur la page "DenonciationSuivi", vous avez la possibilité de suivre les dénonciations qui n'ont pas encore reçu de réponse. Pour accéder à cette fonctionnalité, vous devez être titulaire du droit d'administration fiscale, vous conférant les autorisations nécessaires pour visualiser la liste des dénonciations sans réponse.
+Sur la page "DenonciationSuivi", vous avez la possibilité de suivre les dénonciations qui n'ont pas encore reçu de réponse. Pour accéder à cette fonctionnalité, vous devez être titulaire du droit d'administration fiscale, vous conférant les autorisations nécessaires pour visualiser la liste des dénonciations sans réponse. Le endpoint prévu pour la création d'une réponse est programmé et opérationnel, mais l'interface graphique associé n'a pas pu être fait à temps.
+
 
 ## PersonneVIP
 La page "PersonneVIP" est dédiée à la gestion des personnes VIP. Vous pouvez y consulter la liste des VIP en utilisant un token administrateur. De plus, vous avez la possibilité de modifier le statut des personnes, les élevant au statut VIP ou les ramenant au statut standard.
+La fonctionnalité pour changer de statut une personne par une personne ayant le droit de le faire est totalement fonctionnelle via le endpoint, cependant l'interface utilisateur n'a pas pu être finalisé non plus.
 
 ## TokenGenerator
 La page "TokenGenerator" vous offre la possibilité de générer des tokens avec des rôles différents.
