@@ -6,7 +6,7 @@
 }
 
 <div class="container">
-    <h1 class="my-4">Suivi des Dénonciations</h1>
+    <h1 class="my-4">Suivi des Dénonciations non traitées</h1>
 
     <!-- Formulaire pour saisir le token -->
     <form id="tokenForm">
@@ -28,23 +28,33 @@
         e.preventDefault();
         var token = document.getElementById('token').value;
 
-        fetch('https://yourapiurl/api/denonciations?token=' + token, {
+        fetch('https://localhost:44384/api/app/denonciation/denonciation-non-traite', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
-                // Ajoutez d'autres en-têtes si nécessaire
+                'Authorization': 'Bearer ' + token
             }
         })
             .then(response => {
                 if (response.ok) {
                     return response.json();
+                } else if (response.status === 401) {
+                    // Gérer le cas où l'authentification a échoué
+                    console.error('Authentification échouée : Token invalide');
+                    throw new Error('Authentification échouée : Token invalide');
                 } else {
                     throw new Error('Erreur de réponse du serveur: ' + response.status);
                 }
             })
             .then(data => {
-                // Traiter et afficher les données des dénonciations
-                displayDenonciations(data);
+                if (data.length > 0) {
+                    // Si des dénonciations sont renvoyées, les afficher
+                    displayDenonciations(data);
+                } else {
+                    // Si le corps de la réponse est vide, afficher un message
+                    var list = document.getElementById('denonciationsList');
+                    list.innerHTML = '<div class="alert alert-info" role="alert">Toutes les dénonciations ont déjà été traitées.</div>';
+                }
             })
             .catch((error) => {
                 console.error('Erreur:', error);
@@ -62,4 +72,5 @@
             list.appendChild(item);
         });
     }</script>
+
 }
