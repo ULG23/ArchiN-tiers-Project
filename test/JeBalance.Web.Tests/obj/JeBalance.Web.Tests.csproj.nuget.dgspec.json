@@ -240,6 +240,9 @@
               },
               "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain/JeBalance.Domain.csproj": {
                 "projectPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.Domain/JeBalance.Domain.csproj"
+              },
+              "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.EntityFrameworkCore/JeBalance.EntityFrameworkCore.csproj": {
+                "projectPath": "/Users/gauthiermiguet/ArchiN-tiers-Project/src/JeBalance.EntityFrameworkCore/JeBalance.EntityFrameworkCore.csproj"
               }
             }
           }
@@ -254,6 +257,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
             "Microsoft.AspNetCore.Mvc": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -770,6 +777,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
             "Volo.Abp.Account.HttpApi": {
               "target": "Package",
               "version": "[7.4.2, )"

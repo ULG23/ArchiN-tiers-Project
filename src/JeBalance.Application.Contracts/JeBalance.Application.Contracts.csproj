@@ -26,10 +26,16 @@
     <None Remove="DTOs\" />
     <None Remove="Models\" />
     <None Remove="Settings\" />
+    <None Remove="Denonciation\" />
+    <None Remove="Authorization\" />
+    <None Remove="Personne\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DTOs\" />
     <Folder Include="Models\" />
     <Folder Include="Settings\" />
+    <Folder Include="Denonciation\" />
+    <Folder Include="Authorization\" />
+    <Folder Include="Personne\" />
   </ItemGroup>
 </Project>
